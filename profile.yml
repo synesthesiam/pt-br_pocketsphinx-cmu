@@ -1,0 +1,7 @@
+language:
+  name: "portuguese"
+  code: "pt-br"
+
+text-to-speech:
+  espeak:
+    voice: "pt"
