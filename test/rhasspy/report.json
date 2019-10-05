@@ -1,0 +1,258 @@
+{
+  "statistics": {
+    "num_wavs": 15,
+    "num_words": 68,
+    "num_entities": 0,
+    "correct_transcriptions": 0,
+    "correct_intent_names": 0,
+    "correct_words": 15,
+    "correct_entities": 0,
+    "transcription_accuracy": 0.22058823529411764,
+    "intent_accuracy": 1,
+    "entity_accuracy": 1
+  },
+  "actual": {
+    "ligue_a_tv.wav": {
+      "text": "ele que atingiu a",
+      "transcribe_seconds": 0.06718611717224121,
+      "wav_seconds": 1.4303125,
+      "likelihood": 0.02069942268816221,
+      "word_error": {
+        "expected": "*** LIGUE A       TV",
+        "actual": "ELE QUE   ATINGIU A",
+        "words": 3,
+        "correct": 0,
+        "errors": 4
+      }
+    },
+    "desligue_o_ventilador_do_escritório.wav": {
+      "text": "desde ventiladores história",
+      "transcribe_seconds": 0.2090754508972168,
+      "wav_seconds": 3.15,
+      "likelihood": 0.05266304891929254,
+      "word_error": {
+        "expected": "DESLIGUE O   VENTILADOR DO           ESCRITóRIO",
+        "actual": "***      *** DESDE      VENTILADORES HISTóRIA",
+        "words": 5,
+        "correct": 0,
+        "errors": 5
+      }
+    },
+    "qual_é_a_temperatura_externa.wav": {
+      "text": "qual é que o prato estrada",
+      "transcribe_seconds": 0.13669157028198242,
+      "wav_seconds": 2.8,
+      "likelihood": 0.0011207160296094185,
+      "word_error": {
+        "expected": "qual é  *** A   TEMPERATURA EXTERNA",
+        "actual": "qual é  QUE O   PRATO       ESTRADA",
+        "words": 5,
+        "correct": 2,
+        "errors": 4
+      }
+    },
+    "qual_a_umidade_externa.wav": {
+      "text": "alameda redes perna",
+      "transcribe_seconds": 0.09224939346313477,
+      "wav_seconds": 2.0425625,
+      "likelihood": 5.34352329103515e-05,
+      "word_error": {
+        "expected": "QUAL A       UMIDADE EXTERNA",
+        "actual": "***  ALAMEDA REDES   PERNA",
+        "words": 4,
+        "correct": 0,
+        "errors": 4
+      }
+    },
+    "acenda_a_luz_colorida.wav": {
+      "text": "assentados corrida",
+      "transcribe_seconds": 0.06273221969604492,
+      "wav_seconds": 2.066625,
+      "likelihood": 0.19593174184303333,
+      "word_error": {
+        "expected": "ACENDA A   LUZ        COLORIDA",
+        "actual": "***    *** ASSENTADOS CORRIDA",
+        "words": 4,
+        "correct": 0,
+        "errors": 4
+      }
+    },
+    "ligue_o_ar_condicionado_do_quarto.wav": {
+      "text": "eduardo senado quarto",
+      "transcribe_seconds": 0.11806130409240723,
+      "wav_seconds": 3.55,
+      "likelihood": 0.14880466182993216,
+      "word_error": {
+        "expected": "LIGUE O   AR  CONDICIONADO DO     quarto",
+        "actual": "***   *** *** EDUARDO      SENADO quarto",
+        "words": 6,
+        "correct": 1,
+        "errors": 5
+      }
+    },
+    "que_horas_são.wav": {
+      "text": "que a ação",
+      "transcribe_seconds": 0.05430340766906738,
+      "wav_seconds": 2.05,
+      "likelihood": 0.0898081672350122,
+      "word_error": {
+        "expected": "que HORAS SãO",
+        "actual": "que A     AçãO",
+        "words": 3,
+        "correct": 1,
+        "errors": 2
+      }
+    },
+    "apague_a_luz_colorida.wav": {
+      "text": "ataque os corrida",
+      "transcribe_seconds": 0.062363386154174805,
+      "wav_seconds": 2.170125,
+      "likelihood": 0.18550094966391384,
+      "word_error": {
+        "expected": "APAGUE A      LUZ COLORIDA",
+        "actual": "***    ATAQUE OS  CORRIDA",
+        "words": 4,
+        "correct": 0,
+        "errors": 4
+      }
+    },
+    "apague_a_luz_da_cozinha.wav": {
+      "text": "ataque anos da cozinha",
+      "transcribe_seconds": 0.07477903366088867,
+      "wav_seconds": 2.95,
+      "likelihood": 3.5083170783341044e-05,
+      "word_error": {
+        "expected": "APAGUE A      LUZ  da  cozinha",
+        "actual": "***    ATAQUE ANOS da  cozinha",
+        "words": 5,
+        "correct": 2,
+        "errors": 3
+      }
+    },
+    "acenda_a_luz_do_quarto.wav": {
+      "text": "as seu dados do quarto",
+      "transcribe_seconds": 0.07099342346191406,
+      "wav_seconds": 2.75,
+      "likelihood": 0.004982046349080196,
+      "word_error": {
+        "expected": "ACENDA A   LUZ   do  quarto",
+        "actual": "AS     SEU DADOS do  quarto",
+        "words": 5,
+        "correct": 2,
+        "errors": 3
+      }
+    },
+    "como_está_o_tempo_hoje.wav": {
+      "text": "constam tempo hoje",
+      "transcribe_seconds": 0.08483529090881348,
+      "wav_seconds": 2.45,
+      "likelihood": 0.027102800241649204,
+      "word_error": {
+        "expected": "COMO ESTá O       tempo hoje",
+        "actual": "***  ***   CONSTAM tempo hoje",
+        "words": 5,
+        "correct": 2,
+        "errors": 3
+      }
+    },
+    "ligar_a_luz_do_quarto.wav": {
+      "text": "ea lo quarto",
+      "transcribe_seconds": 0.06261992454528809,
+      "wav_seconds": 1.876125,
+      "likelihood": 0.02165878318187403,
+      "word_error": {
+        "expected": "LIGAR A   LUZ DO  quarto",
+        "actual": "***   *** EA  LO  quarto",
+        "words": 5,
+        "correct": 1,
+        "errors": 4
+      }
+    },
+    "desligar_a_luz_do_quarto.wav": {
+      "text": "que cigarro quarto",
+      "transcribe_seconds": 0.055452585220336914,
+      "wav_seconds": 1.869375,
+      "likelihood": 0.014105451484574266,
+      "word_error": {
+        "expected": "DESLIGAR A   LUZ DO      quarto",
+        "actual": "***      *** QUE CIGARRO quarto",
+        "words": 5,
+        "correct": 1,
+        "errors": 4
+      }
+    },
+    "como_estará_o_tempo_amanhã.wav": {
+      "text": "com está tendo manhã",
+      "transcribe_seconds": 0.1177525520324707,
+      "wav_seconds": 2.45,
+      "likelihood": 0.04053167232289698,
+      "word_error": {
+        "expected": "COMO ESTARá O     TEMPO AMANHã",
+        "actual": "***  COM     ESTá TENDO MANHã",
+        "words": 5,
+        "correct": 0,
+        "errors": 5
+      }
+    },
+    "ligue_o_ar_condicionado.wav": {
+      "text": "ele que o ar condicionado",
+      "transcribe_seconds": 0.10672187805175781,
+      "wav_seconds": 2.3,
+      "likelihood": 0.005819758319465065,
+      "word_error": {
+        "expected": "*** LIGUE o   ar  condicionado",
+        "actual": "ELE QUE   o   ar  condicionado",
+        "words": 4,
+        "correct": 3,
+        "errors": 2
+      }
+    }
+  },
+  "expected": {
+    "ligue_a_tv.wav": {
+      "text": "ligue a tv"
+    },
+    "desligue_o_ventilador_do_escritório.wav": {
+      "text": "desligue o ventilador do escritório"
+    },
+    "qual_é_a_temperatura_externa.wav": {
+      "text": "qual é a temperatura externa"
+    },
+    "qual_a_umidade_externa.wav": {
+      "text": "qual a umidade externa"
+    },
+    "acenda_a_luz_colorida.wav": {
+      "text": "acenda a luz colorida"
+    },
+    "ligue_o_ar_condicionado_do_quarto.wav": {
+      "text": "ligue o ar condicionado do quarto"
+    },
+    "que_horas_são.wav": {
+      "text": "que horas são"
+    },
+    "apague_a_luz_colorida.wav": {
+      "text": "apague a luz colorida"
+    },
+    "apague_a_luz_da_cozinha.wav": {
+      "text": "apague a luz da cozinha"
+    },
+    "acenda_a_luz_do_quarto.wav": {
+      "text": "acenda a luz do quarto"
+    },
+    "como_está_o_tempo_hoje.wav": {
+      "text": "como está o tempo hoje"
+    },
+    "ligar_a_luz_do_quarto.wav": {
+      "text": "ligar a luz do quarto"
+    },
+    "desligar_a_luz_do_quarto.wav": {
+      "text": "desligar a luz do quarto"
+    },
+    "como_estará_o_tempo_amanhã.wav": {
+      "text": "como estará o tempo amanhã"
+    },
+    "ligue_o_ar_condicionado.wav": {
+      "text": "ligue o ar condicionado"
+    }
+  }
+}

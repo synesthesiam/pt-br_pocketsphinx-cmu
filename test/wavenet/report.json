@@ -1,0 +1,514 @@
+{
+  "statistics": {
+    "num_wavs": 31,
+    "num_words": 107,
+    "num_entities": 0,
+    "correct_transcriptions": 22,
+    "correct_intent_names": 0,
+    "correct_words": 96,
+    "correct_entities": 0,
+    "transcription_accuracy": 0.897196261682243,
+    "intent_accuracy": 1,
+    "entity_accuracy": 1
+  },
+  "actual": {
+    "apague_lâmpada.wav": {
+      "text": "apague lâmpada",
+      "transcribe_seconds": 0.016209125518798828,
+      "wav_seconds": 1.41975,
+      "likelihood": 0.5938904540117648,
+      "word_error": {
+        "expected": "apague lâmpada",
+        "actual": "apague lâmpada",
+        "words": 2,
+        "correct": 2,
+        "errors": 0
+      }
+    },
+    "qual_a_temperatura_interna.wav": {
+      "text": "qual a temperatura interna",
+      "transcribe_seconds": 0.022670745849609375,
+      "wav_seconds": 1.9280625,
+      "likelihood": 0.6138181471879829,
+      "word_error": {
+        "expected": "qual a   temperatura interna",
+        "actual": "qual a   temperatura interna",
+        "words": 4,
+        "correct": 4,
+        "errors": 0
+      }
+    },
+    "ligar_régua.wav": {
+      "text": "ligar régua",
+      "transcribe_seconds": 0.015295028686523438,
+      "wav_seconds": 1.1076875,
+      "likelihood": 0.4701105075795125,
+      "word_error": {
+        "expected": "ligar régua",
+        "actual": "ligar régua",
+        "words": 2,
+        "correct": 2,
+        "errors": 0
+      }
+    },
+    "qual_o_status_da_garagem.wav": {
+      "text": "qual o status da garagem",
+      "transcribe_seconds": 0.021967411041259766,
+      "wav_seconds": 2.0164375,
+      "likelihood": 0.869257185990535,
+      "word_error": {
+        "expected": "qual o   status da  garagem",
+        "actual": "qual o   status da  garagem",
+        "words": 5,
+        "correct": 5,
+        "errors": 0
+      }
+    },
+    "desligar_a_lâmpada.wav": {
+      "text": "desligar lâmpada",
+      "transcribe_seconds": 0.020181894302368164,
+      "wav_seconds": 1.683625,
+      "likelihood": 0.7072718710558559,
+      "word_error": {
+        "expected": "desligar A   lâmpada",
+        "actual": "desligar *** lâmpada",
+        "words": 3,
+        "correct": 2,
+        "errors": 1
+      }
+    },
+    "acenda_lâmpada.wav": {
+      "text": "acenda lâmpada",
+      "transcribe_seconds": 0.014344215393066406,
+      "wav_seconds": 1.4013125,
+      "likelihood": 0.6886354553108938,
+      "word_error": {
+        "expected": "acenda lâmpada",
+        "actual": "acenda lâmpada",
+        "words": 2,
+        "correct": 2,
+        "errors": 0
+      }
+    },
+    "qual_é_a_temperatura_externa.wav": {
+      "text": "qual a temperatura externa",
+      "transcribe_seconds": 0.023415088653564453,
+      "wav_seconds": 2.2995625,
+      "likelihood": 0.7888118147583804,
+      "word_error": {
+        "expected": "qual é  a   temperatura externa",
+        "actual": "qual *** a   temperatura externa",
+        "words": 5,
+        "correct": 4,
+        "errors": 1
+      }
+    },
+    "ligar_luz_do_quarto.wav": {
+      "text": "ligar luz do quarto",
+      "transcribe_seconds": 0.021558046340942383,
+      "wav_seconds": 1.7698125,
+      "likelihood": 0.48109774786242027,
+      "word_error": {
+        "expected": "ligar luz do  quarto",
+        "actual": "ligar luz do  quarto",
+        "words": 4,
+        "correct": 4,
+        "errors": 0
+      }
+    },
+    "apague_luz_do_quarto.wav": {
+      "text": "apague luz do quarto",
+      "transcribe_seconds": 0.02034926414489746,
+      "wav_seconds": 1.7983125,
+      "likelihood": 0.6092921351773382,
+      "word_error": {
+        "expected": "apague luz do  quarto",
+        "actual": "apague luz do  quarto",
+        "words": 4,
+        "correct": 4,
+        "errors": 0
+      }
+    },
+    "qual_a_temperatura_externa.wav": {
+      "text": "qual a temperatura externa",
+      "transcribe_seconds": 0.02327871322631836,
+      "wav_seconds": 2.0568125,
+      "likelihood": 0.6356847500767407,
+      "word_error": {
+        "expected": "qual a   temperatura externa",
+        "actual": "qual a   temperatura externa",
+        "words": 4,
+        "correct": 4,
+        "errors": 0
+      }
+    },
+    "acenda_régua.wav": {
+      "text": "acenda régua",
+      "transcribe_seconds": 0.014266729354858398,
+      "wav_seconds": 1.240125,
+      "likelihood": 0.8078129549777758,
+      "word_error": {
+        "expected": "acenda régua",
+        "actual": "acenda régua",
+        "words": 2,
+        "correct": 2,
+        "errors": 0
+      }
+    },
+    "apague_a_luz_do_quarto.wav": {
+      "text": "apague a luz do quarto",
+      "transcribe_seconds": 0.01914072036743164,
+      "wav_seconds": 1.9063125,
+      "likelihood": 0.7956256436376153,
+      "word_error": {
+        "expected": "apague a   luz do  quarto",
+        "actual": "apague a   luz do  quarto",
+        "words": 5,
+        "correct": 5,
+        "errors": 0
+      }
+    },
+    "apague_régua.wav": {
+      "text": "apague régua",
+      "transcribe_seconds": 0.014386653900146484,
+      "wav_seconds": 1.2239375,
+      "likelihood": 0.6487225476161073,
+      "word_error": {
+        "expected": "apague régua",
+        "actual": "apague régua",
+        "words": 2,
+        "correct": 2,
+        "errors": 0
+      }
+    },
+    "desligar_luz_do_quarto.wav": {
+      "text": "desligar luz do quarto",
+      "transcribe_seconds": 0.022344589233398438,
+      "wav_seconds": 1.8995,
+      "likelihood": 0.7302002647735175,
+      "word_error": {
+        "expected": "desligar luz do  quarto",
+        "actual": "desligar luz do  quarto",
+        "words": 4,
+        "correct": 4,
+        "errors": 0
+      }
+    },
+    "qual_a_qualidade_do_ar.wav": {
+      "text": "apague apague do ar",
+      "transcribe_seconds": 0.02238917350769043,
+      "wav_seconds": 1.8144375,
+      "likelihood": 0.6294847504920125,
+      "word_error": {
+        "expected": "QUAL A      QUALIDADE do  ar",
+        "actual": "***  APAGUE APAGUE    do  ar",
+        "words": 5,
+        "correct": 2,
+        "errors": 3
+      }
+    },
+    "qual_é_a_temperatura_interna.wav": {
+      "text": "qual a temperatura interna",
+      "transcribe_seconds": 0.02429485321044922,
+      "wav_seconds": 2.2976875,
+      "likelihood": 0.6672123594937284,
+      "word_error": {
+        "expected": "qual é  a   temperatura interna",
+        "actual": "qual *** a   temperatura interna",
+        "words": 5,
+        "correct": 4,
+        "errors": 1
+      }
+    },
+    "ligar_a_lâmpada.wav": {
+      "text": "ligar lâmpada",
+      "transcribe_seconds": 0.01630115509033203,
+      "wav_seconds": 1.4665625,
+      "likelihood": 0.6537375756143801,
+      "word_error": {
+        "expected": "ligar A   lâmpada",
+        "actual": "ligar *** lâmpada",
+        "words": 3,
+        "correct": 2,
+        "errors": 1
+      }
+    },
+    "que_horas_são.wav": {
+      "text": "que horas são",
+      "transcribe_seconds": 0.011649370193481445,
+      "wav_seconds": 1.0715625,
+      "likelihood": 0.7683341521465449,
+      "word_error": {
+        "expected": "que horas são",
+        "actual": "que horas são",
+        "words": 3,
+        "correct": 3,
+        "errors": 0
+      }
+    },
+    "apague_a_régua.wav": {
+      "text": "apague a régua",
+      "transcribe_seconds": 0.01706099510192871,
+      "wav_seconds": 1.3649375,
+      "likelihood": 0.5009844999961446,
+      "word_error": {
+        "expected": "apague a   régua",
+        "actual": "apague a   régua",
+        "words": 3,
+        "correct": 3,
+        "errors": 0
+      }
+    },
+    "desligar_a_régua.wav": {
+      "text": "desligar a régua",
+      "transcribe_seconds": 0.0202329158782959,
+      "wav_seconds": 1.4988125,
+      "likelihood": 0.6803522208126569,
+      "word_error": {
+        "expected": "desligar a   régua",
+        "actual": "desligar a   régua",
+        "words": 3,
+        "correct": 3,
+        "errors": 0
+      }
+    },
+    "acenda_a_régua.wav": {
+      "text": "acenda régua",
+      "transcribe_seconds": 0.015101194381713867,
+      "wav_seconds": 1.3683125,
+      "likelihood": 0.6490470276144852,
+      "word_error": {
+        "expected": "acenda A   régua",
+        "actual": "acenda *** régua",
+        "words": 3,
+        "correct": 2,
+        "errors": 1
+      }
+    },
+    "ligar_a_régua.wav": {
+      "text": "ligar a régua",
+      "transcribe_seconds": 0.017594337463378906,
+      "wav_seconds": 1.2728125,
+      "likelihood": 0.5243610368568709,
+      "word_error": {
+        "expected": "ligar a   régua",
+        "actual": "ligar a   régua",
+        "words": 3,
+        "correct": 3,
+        "errors": 0
+      }
+    },
+    "desligar_régua.wav": {
+      "text": "desligar régua",
+      "transcribe_seconds": 0.01917409896850586,
+      "wav_seconds": 1.37725,
+      "likelihood": 0.47965645058128975,
+      "word_error": {
+        "expected": "desligar régua",
+        "actual": "desligar régua",
+        "words": 2,
+        "correct": 2,
+        "errors": 0
+      }
+    },
+    "acenda_a_lâmpada.wav": {
+      "text": "acenda a lâmpada",
+      "transcribe_seconds": 0.016171693801879883,
+      "wav_seconds": 1.5655625,
+      "likelihood": 0.5300024817660152,
+      "word_error": {
+        "expected": "acenda a   lâmpada",
+        "actual": "acenda a   lâmpada",
+        "words": 3,
+        "correct": 3,
+        "errors": 0
+      }
+    },
+    "acenda_a_luz_do_quarto.wav": {
+      "text": "acenda luz do quarto",
+      "transcribe_seconds": 0.02025294303894043,
+      "wav_seconds": 1.9656875,
+      "likelihood": 0.7990545983329614,
+      "word_error": {
+        "expected": "acenda A   luz do  quarto",
+        "actual": "acenda *** luz do  quarto",
+        "words": 5,
+        "correct": 4,
+        "errors": 1
+      }
+    },
+    "ligar_a_luz_do_quarto.wav": {
+      "text": "ligar luz do quarto",
+      "transcribe_seconds": 0.02110910415649414,
+      "wav_seconds": 1.9348125,
+      "likelihood": 0.7690260443873285,
+      "word_error": {
+        "expected": "ligar A   luz do  quarto",
+        "actual": "ligar *** luz do  quarto",
+        "words": 5,
+        "correct": 4,
+        "errors": 1
+      }
+    },
+    "desligar_a_luz_do_quarto.wav": {
+      "text": "desligar luz do quarto",
+      "transcribe_seconds": 0.023364782333374023,
+      "wav_seconds": 2.0945625,
+      "likelihood": 0.7969795146267965,
+      "word_error": {
+        "expected": "desligar A   luz do  quarto",
+        "actual": "desligar *** luz do  quarto",
+        "words": 5,
+        "correct": 4,
+        "errors": 1
+      }
+    },
+    "ligar_lâmpada.wav": {
+      "text": "ligar lâmpada",
+      "transcribe_seconds": 0.016649484634399414,
+      "wav_seconds": 1.3405,
+      "likelihood": 0.6020836984933408,
+      "word_error": {
+        "expected": "ligar lâmpada",
+        "actual": "ligar lâmpada",
+        "words": 2,
+        "correct": 2,
+        "errors": 0
+      }
+    },
+    "apague_a_lâmpada.wav": {
+      "text": "apague a lâmpada",
+      "transcribe_seconds": 0.019034385681152344,
+      "wav_seconds": 1.5855625,
+      "likelihood": 0.6066168296696274,
+      "word_error": {
+        "expected": "apague a   lâmpada",
+        "actual": "apague a   lâmpada",
+        "words": 3,
+        "correct": 3,
+        "errors": 0
+      }
+    },
+    "acenda_luz_do_quarto.wav": {
+      "text": "acenda luz do quarto",
+      "transcribe_seconds": 0.01799774169921875,
+      "wav_seconds": 1.6944375,
+      "likelihood": 0.5113107503390397,
+      "word_error": {
+        "expected": "acenda luz do  quarto",
+        "actual": "acenda luz do  quarto",
+        "words": 4,
+        "correct": 4,
+        "errors": 0
+      }
+    },
+    "desligar_lâmpada.wav": {
+      "text": "desligar lâmpada",
+      "transcribe_seconds": 0.019870758056640625,
+      "wav_seconds": 1.5783125,
+      "likelihood": 0.7513879883443406,
+      "word_error": {
+        "expected": "desligar lâmpada",
+        "actual": "desligar lâmpada",
+        "words": 2,
+        "correct": 2,
+        "errors": 0
+      }
+    }
+  },
+  "expected": {
+    "apague_lâmpada.wav": {
+      "text": "apague lâmpada"
+    },
+    "qual_a_temperatura_interna.wav": {
+      "text": "qual a temperatura interna"
+    },
+    "ligar_régua.wav": {
+      "text": "ligar régua"
+    },
+    "qual_o_status_da_garagem.wav": {
+      "text": "qual o status da garagem"
+    },
+    "desligar_a_lâmpada.wav": {
+      "text": "desligar a lâmpada"
+    },
+    "acenda_lâmpada.wav": {
+      "text": "acenda lâmpada"
+    },
+    "qual_é_a_temperatura_externa.wav": {
+      "text": "qual é a temperatura externa"
+    },
+    "ligar_luz_do_quarto.wav": {
+      "text": "ligar luz do quarto"
+    },
+    "apague_luz_do_quarto.wav": {
+      "text": "apague luz do quarto"
+    },
+    "qual_a_temperatura_externa.wav": {
+      "text": "qual a temperatura externa"
+    },
+    "acenda_régua.wav": {
+      "text": "acenda régua"
+    },
+    "apague_a_luz_do_quarto.wav": {
+      "text": "apague a luz do quarto"
+    },
+    "apague_régua.wav": {
+      "text": "apague régua"
+    },
+    "desligar_luz_do_quarto.wav": {
+      "text": "desligar luz do quarto"
+    },
+    "qual_a_qualidade_do_ar.wav": {
+      "text": "qual a qualidade do ar"
+    },
+    "qual_é_a_temperatura_interna.wav": {
+      "text": "qual é a temperatura interna"
+    },
+    "ligar_a_lâmpada.wav": {
+      "text": "ligar a lâmpada"
+    },
+    "que_horas_são.wav": {
+      "text": "que horas são"
+    },
+    "apague_a_régua.wav": {
+      "text": "apague a régua"
+    },
+    "desligar_a_régua.wav": {
+      "text": "desligar a régua"
+    },
+    "acenda_a_régua.wav": {
+      "text": "acenda a régua"
+    },
+    "ligar_a_régua.wav": {
+      "text": "ligar a régua"
+    },
+    "desligar_régua.wav": {
+      "text": "desligar régua"
+    },
+    "acenda_a_lâmpada.wav": {
+      "text": "acenda a lâmpada"
+    },
+    "acenda_a_luz_do_quarto.wav": {
+      "text": "acenda a luz do quarto"
+    },
+    "ligar_a_luz_do_quarto.wav": {
+      "text": "ligar a luz do quarto"
+    },
+    "desligar_a_luz_do_quarto.wav": {
+      "text": "desligar a luz do quarto"
+    },
+    "ligar_lâmpada.wav": {
+      "text": "ligar lâmpada"
+    },
+    "apague_a_lâmpada.wav": {
+      "text": "apague a lâmpada"
+    },
+    "acenda_luz_do_quarto.wav": {
+      "text": "acenda luz do quarto"
+    },
+    "desligar_lâmpada.wav": {
+      "text": "desligar lâmpada"
+    }
+  }
+}
