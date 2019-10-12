@@ -9,12 +9,22 @@
     "correct_entities": 0,
     "transcription_accuracy": 0.23595505617977527,
     "intent_accuracy": 1,
-    "entity_accuracy": 1
+    "entity_accuracy": 1,
+    "intent_entity_accuracy": 1,
+    "average_transcription_speedup": 20.84549451257948
   },
   "actual": {
     "203.wav": {
       "text": "os ou com ela outros filmes comentou procurado nasceu lutadores atualmente",
-      "transcribe_seconds": 0.47362565994262695,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00010824203491210938,
+      "transcribe_seconds": 0.4728717803955078,
       "wav_seconds": 9,
       "likelihood": 9.532325501604926e-07,
       "word_error": {
@@ -27,7 +37,15 @@
     },
     "198.wav": {
       "text": "outras espaço tempo",
-      "transcribe_seconds": 0.1368863582611084,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 2.0265579223632812e-05,
+      "transcribe_seconds": 0.15569639205932617,
       "wav_seconds": 3.375,
       "likelihood": 0.019386912349767273,
       "word_error": {
@@ -40,7 +58,15 @@
     },
     "206.wav": {
       "text": "eu parece ser essa marcador social volante",
-      "transcribe_seconds": 0.2516167163848877,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 2.0503997802734375e-05,
+      "transcribe_seconds": 0.24975848197937012,
       "wav_seconds": 7.75,
       "likelihood": 1.5563483009703323e-05,
       "word_error": {
@@ -53,7 +79,15 @@
     },
     "205.wav": {
       "text": "é melhor longa deve tomar os comensais casos de baixa estou",
-      "transcribe_seconds": 0.5844736099243164,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.0008220672607421875,
+      "transcribe_seconds": 0.6432204246520996,
       "wav_seconds": 8.125,
       "likelihood": 1.6278293652688987e-05,
       "word_error": {
@@ -66,7 +100,15 @@
     },
     "202.wav": {
       "text": "hoje aberta para e comprem seus palácio da partida contra o méxico",
-      "transcribe_seconds": 0.3406715393066406,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00021600723266601562,
+      "transcribe_seconds": 0.35590696334838867,
       "wav_seconds": 7,
       "likelihood": 2.2034381440494124e-07,
       "word_error": {
@@ -79,7 +121,15 @@
     },
     "197.wav": {
       "text": "eles mora que desde usadas atenta",
-      "transcribe_seconds": 0.35111379623413086,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.0002028942108154297,
+      "transcribe_seconds": 0.3061254024505615,
       "wav_seconds": 6.625,
       "likelihood": 3.498506394700072e-05,
       "word_error": {
@@ -92,7 +142,15 @@
     },
     "199.wav": {
       "text": "era o quarto para chegar em casa",
-      "transcribe_seconds": 0.1606457233428955,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00020647048950195312,
+      "transcribe_seconds": 0.15626192092895508,
       "wav_seconds": 4.125,
       "likelihood": 0.005296508419989186,
       "word_error": {
@@ -105,7 +163,15 @@
     },
     "201.wav": {
       "text": "luta contra o coritiba em ser algo disputa de estes e",
-      "transcribe_seconds": 0.45082545280456543,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00020051002502441406,
+      "transcribe_seconds": 0.4438471794128418,
       "wav_seconds": 6.5,
       "likelihood": 2.5503170511191518e-06,
       "word_error": {
@@ -118,7 +184,15 @@
     },
     "204.wav": {
       "text": "primeira maior era estudos coincidência wall os ela de a terra",
-      "transcribe_seconds": 0.38887715339660645,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.0002155303955078125,
+      "transcribe_seconds": 0.3591907024383545,
       "wav_seconds": 7.875,
       "likelihood": 2.561145360568653e-08,
       "word_error": {
@@ -131,7 +205,15 @@
     },
     "200.wav": {
       "text": "ele até utilizado",
-      "transcribe_seconds": 0.14828252792358398,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 2.1219253540039062e-05,
+      "transcribe_seconds": 0.14514851570129395,
       "wav_seconds": 2.875,
       "likelihood": 0.018991582015742664,
       "word_error": {
