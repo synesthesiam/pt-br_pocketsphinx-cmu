@@ -1,260 +1,750 @@
 {
-  "statistics": {
-    "num_wavs": 10,
-    "num_words": 89,
-    "num_entities": 0,
-    "correct_transcriptions": 0,
-    "correct_intent_names": 0,
-    "correct_words": 21,
-    "correct_entities": 0,
-    "transcription_accuracy": 0.23595505617977527,
-    "intent_accuracy": 1,
-    "entity_accuracy": 1,
-    "intent_entity_accuracy": 1,
-    "average_transcription_speedup": 20.84549451257948
+  "expected": {
+    "203.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "o zorro é outro dos filmes muito procurados nas locadoras atualmente",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "202.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "o jovem atacante convenceu fácil na partida contra o méxico",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "198.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "por que você está sorrindo",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "199.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "passamos pelo parque para chegar em casa",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "205.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "e melhor nunca engomar os lençóis azuis debaixo de sol",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "201.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "o presidente da república faz advertência ao ministro da justiça",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "206.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "eu prefiro ser essa metamorfose ambulante",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "200.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "que dia é o exame",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "197.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "eles moram aqui desde os anos setenta",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "204.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "a primeira maior guerra de todas foi entre o bem e o mal o ceu e a terra",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    }
   },
   "actual": {
     "203.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
       "text": "os ou com ela outros filmes comentou procurado nasceu lutadores atualmente",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.00010824203491210938,
-      "transcribe_seconds": 0.4728717803955078,
+      "raw_text": "os ou com ela outros filmes comentou procurado nasceu lutadores atualmente",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
       "wav_seconds": 9,
-      "likelihood": 9.532325501604926e-07,
+      "transcribe_seconds": 0.8865055530004611,
+      "speech_confidence": null,
+      "wav_name": "203.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "O   ZORRO é  OUTRO DOS    filmes MUITO    PROCURADOS NAS    LOCADORAS atualmente",
-        "actual": "OS  OU    COM ELA   OUTROS filmes COMENTOU PROCURADO  NASCEU LUTADORES atualmente",
+        "reference": [
+          "o",
+          "zorro",
+          "é",
+          "outro",
+          "dos",
+          "filmes",
+          "muito",
+          "procurados",
+          "nas",
+          "locadoras",
+          "atualmente"
+        ],
+        "hypothesis": [
+          "os",
+          "ou",
+          "com",
+          "ela",
+          "outros",
+          "filmes",
+          "comentou",
+          "procurado",
+          "nasceu",
+          "lutadores",
+          "atualmente"
+        ],
+        "differences": [
+          "o:os",
+          "zorro:ou",
+          "é:com",
+          "outro:ela",
+          "dos:outros",
+          "filmes",
+          "muito:comentou",
+          "procurados:procurado",
+          "nas:nasceu",
+          "locadoras:lutadores",
+          "atualmente"
+        ],
         "words": 11,
-        "correct": 2,
-        "errors": 9
-      }
-    },
-    "198.wav": {
-      "text": "outras espaço tempo",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 2.0265579223632812e-05,
-      "transcribe_seconds": 0.15569639205932617,
-      "wav_seconds": 3.375,
-      "likelihood": 0.019386912349767273,
-      "word_error": {
-        "expected": "POR QUE VOCê  ESTá   SORRINDO",
-        "actual": "*** *** OUTRAS ESPAçO TEMPO",
-        "words": 5,
-        "correct": 0,
-        "errors": 5
-      }
-    },
-    "206.wav": {
-      "text": "eu parece ser essa marcador social volante",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 2.0503997802734375e-05,
-      "transcribe_seconds": 0.24975848197937012,
-      "wav_seconds": 7.75,
-      "likelihood": 1.5563483009703323e-05,
-      "word_error": {
-        "expected": "eu  PREFIRO ser essa ***      METAMORFOSE AMBULANTE",
-        "actual": "eu  PARECE  ser essa MARCADOR SOCIAL      VOLANTE",
-        "words": 6,
-        "correct": 3,
-        "errors": 4
-      }
-    },
-    "205.wav": {
-      "text": "é melhor longa deve tomar os comensais casos de baixa estou",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.0008220672607421875,
-      "transcribe_seconds": 0.6432204246520996,
-      "wav_seconds": 8.125,
-      "likelihood": 1.6278293652688987e-05,
-      "word_error": {
-        "expected": "E   melhor ***   NUNCA ENGOMAR os  LENçóIS AZUIS DEBAIXO DE    SOL",
-        "actual": "é  melhor LONGA DEVE  TOMAR   os  COMENSAIS CASOS DE      BAIXA ESTOU",
-        "words": 10,
-        "correct": 2,
-        "errors": 9
+        "errors": 9,
+        "matches": 2,
+        "substitutions": 9,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0.8181818181818182
       }
     },
     "202.wav": {
-      "text": "hoje aberta para e comprem seus palácio da partida contra o méxico",
       "intent": {
         "name": "",
         "confidence": 0
       },
       "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.00021600723266601562,
-      "transcribe_seconds": 0.35590696334838867,
+      "text": "hoje aberta cary como em seu espaço na partida contra o méxico",
+      "raw_text": "hoje aberta cary como em seu espaço na partida contra o méxico",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
       "wav_seconds": 7,
-      "likelihood": 2.2034381440494124e-07,
+      "transcribe_seconds": 0.7782017730023654,
+      "speech_confidence": null,
+      "wav_name": "202.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "***  ***    O    JOVEM ATACANTE CONVENCEU FáCIL   NA  partida contra o   méxico",
-        "actual": "HOJE ABERTA PARA E     COMPREM  SEUS      PALáCIO DA  partida contra o   méxico",
+        "reference": [
+          "o",
+          "jovem",
+          "atacante",
+          "convenceu",
+          "fácil",
+          "na",
+          "partida",
+          "contra",
+          "o",
+          "méxico"
+        ],
+        "hypothesis": [
+          "hoje",
+          "aberta",
+          "cary",
+          "como",
+          "em",
+          "seu",
+          "espaço",
+          "na",
+          "partida",
+          "contra",
+          "o",
+          "méxico"
+        ],
+        "differences": [
+          "o:cary",
+          "jovem:como",
+          "atacante:em",
+          "convenceu:seu",
+          "fácil:espaço",
+          "na",
+          "partida",
+          "contra",
+          "o",
+          "méxico"
+        ],
         "words": 10,
-        "correct": 4,
-        "errors": 8
+        "errors": 7,
+        "matches": 5,
+        "substitutions": 5,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0.5
       }
     },
-    "197.wav": {
-      "text": "eles mora que desde usadas atenta",
+    "198.wav": {
       "intent": {
         "name": "",
         "confidence": 0
       },
       "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.0002028942108154297,
-      "transcribe_seconds": 0.3061254024505615,
-      "wav_seconds": 6.625,
-      "likelihood": 3.498506394700072e-05,
+      "text": "outras estação en a",
+      "raw_text": "outras estação en a",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 3.375,
+      "transcribe_seconds": 0.35530743100025575,
+      "speech_confidence": null,
+      "wav_name": "198.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "eles MORAM AQUI desde OS  ANOS   SETENTA",
-        "actual": "eles MORA  QUE  desde *** USADAS ATENTA",
-        "words": 7,
-        "correct": 2,
-        "errors": 5
+        "reference": [
+          "por",
+          "que",
+          "você",
+          "está",
+          "sorrindo"
+        ],
+        "hypothesis": [
+          "outras",
+          "estação",
+          "en",
+          "a"
+        ],
+        "differences": [
+          "que:outras",
+          "você:estação",
+          "está:en",
+          "sorrindo:a"
+        ],
+        "words": 5,
+        "errors": 5,
+        "matches": 0,
+        "substitutions": 4,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0.8
       }
     },
     "199.wav": {
-      "text": "era o quarto para chegar em casa",
       "intent": {
         "name": "",
         "confidence": 0
       },
       "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.00020647048950195312,
-      "transcribe_seconds": 0.15626192092895508,
+      "text": "era o quarto para chegar em casa",
+      "raw_text": "era o quarto para chegar em casa",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
       "wav_seconds": 4.125,
-      "likelihood": 0.005296508419989186,
+      "transcribe_seconds": 0.4575208800015389,
+      "speech_confidence": null,
+      "wav_name": "199.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "PASSAMOS PELO PARQUE para chegar em  casa",
-        "actual": "ERA      O    QUARTO para chegar em  casa",
+        "reference": [
+          "passamos",
+          "pelo",
+          "parque",
+          "para",
+          "chegar",
+          "em",
+          "casa"
+        ],
+        "hypothesis": [
+          "era",
+          "o",
+          "quarto",
+          "para",
+          "chegar",
+          "em",
+          "casa"
+        ],
+        "differences": [
+          "passamos:era",
+          "pelo:o",
+          "parque:quarto",
+          "para",
+          "chegar",
+          "em",
+          "casa"
+        ],
         "words": 7,
-        "correct": 4,
-        "errors": 3
+        "errors": 3,
+        "matches": 4,
+        "substitutions": 3,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0.42857142857142855
+      }
+    },
+    "205.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "text": "é melhor longa deve tomar os comensais casos de baixa estou",
+      "raw_text": "é melhor longa deve tomar os comensais casos de baixa estou",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 8.125,
+      "transcribe_seconds": 0.9906576940011291,
+      "speech_confidence": null,
+      "wav_name": "205.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "e",
+          "melhor",
+          "nunca",
+          "engomar",
+          "os",
+          "lençóis",
+          "azuis",
+          "debaixo",
+          "de",
+          "sol"
+        ],
+        "hypothesis": [
+          "é",
+          "melhor",
+          "longa",
+          "deve",
+          "tomar",
+          "os",
+          "comensais",
+          "casos",
+          "de",
+          "baixa",
+          "estou"
+        ],
+        "differences": [
+          "e:é",
+          "melhor",
+          "+longa",
+          "nunca:deve",
+          "engomar:tomar",
+          "os",
+          "lençóis:comensais",
+          "azuis:casos",
+          "debaixo:de",
+          "de:baixa",
+          "sol:estou"
+        ],
+        "words": 10,
+        "errors": 9,
+        "matches": 2,
+        "substitutions": 8,
+        "deletions": 0,
+        "insertions": 1,
+        "error_rate": 0.9
       }
     },
     "201.wav": {
-      "text": "luta contra o coritiba em ser algo disputa de estes e",
       "intent": {
         "name": "",
         "confidence": 0
       },
       "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.00020051002502441406,
-      "transcribe_seconds": 0.4438471794128418,
+      "text": "luta contra o coritiba em ser algo disputa de estes e",
+      "raw_text": "luta contra o coritiba em ser algo disputa de estes e",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
       "wav_seconds": 6.5,
-      "likelihood": 2.5503170511191518e-06,
+      "transcribe_seconds": 1.124120299002243,
+      "speech_confidence": null,
+      "wav_name": "201.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "***  O      PRESIDENTE DA       REPúBLICA FAZ ADVERTêNCIA AO      MINISTRO DA    JUSTIçA",
-        "actual": "LUTA CONTRA O          CORITIBA EM         SER ALGO         DISPUTA DE       ESTES E",
+        "reference": [
+          "o",
+          "presidente",
+          "da",
+          "república",
+          "faz",
+          "advertência",
+          "ao",
+          "ministro",
+          "da",
+          "justiça"
+        ],
+        "hypothesis": [
+          "luta",
+          "contra",
+          "o",
+          "coritiba",
+          "em",
+          "ser",
+          "algo",
+          "disputa",
+          "de",
+          "estes",
+          "e"
+        ],
+        "differences": [
+          "o:contra",
+          "presidente:o",
+          "da:coritiba",
+          "república:em",
+          "faz:ser",
+          "advertência:algo",
+          "ao:disputa",
+          "ministro:de",
+          "da:estes",
+          "justiça:e"
+        ],
         "words": 10,
-        "correct": 0,
-        "errors": 11
+        "errors": 11,
+        "matches": 0,
+        "substitutions": 10,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 1
       }
     },
-    "204.wav": {
-      "text": "primeira maior era estudos coincidência wall os ela de a terra",
+    "206.wav": {
       "intent": {
         "name": "",
         "confidence": 0
       },
       "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.0002155303955078125,
-      "transcribe_seconds": 0.3591907024383545,
-      "wav_seconds": 7.875,
-      "likelihood": 2.561145360568653e-08,
+      "text": "eu parece ser essa marcador social volante",
+      "raw_text": "eu parece ser essa marcador social volante",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 7.75,
+      "transcribe_seconds": 0.547210405999067,
+      "speech_confidence": null,
+      "wav_name": "206.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "A   primeira maior GUERRA DE  TODAS FOI ENTRE O   BEM E       O             MAL  O   CEU E   a   terra",
-        "actual": "*** primeira maior ***    *** ***   *** ***   *** ERA ESTUDOS COINCIDêNCIA WALL OS  ELA DE  a   terra",
-        "words": 18,
-        "correct": 4,
-        "errors": 14
+        "reference": [
+          "eu",
+          "prefiro",
+          "ser",
+          "essa",
+          "metamorfose",
+          "ambulante"
+        ],
+        "hypothesis": [
+          "eu",
+          "parece",
+          "ser",
+          "essa",
+          "marcador",
+          "social",
+          "volante"
+        ],
+        "differences": [
+          "eu",
+          "prefiro:parece",
+          "ser",
+          "essa",
+          "+marcador",
+          "metamorfose:social",
+          "ambulante:volante"
+        ],
+        "words": 6,
+        "errors": 4,
+        "matches": 3,
+        "substitutions": 3,
+        "deletions": 0,
+        "insertions": 1,
+        "error_rate": 0.6666666666666666
       }
     },
     "200.wav": {
-      "text": "ele até utilizado",
       "intent": {
         "name": "",
         "confidence": 0
       },
       "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 2.1219253540039062e-05,
-      "transcribe_seconds": 0.14514851570129395,
+      "text": "ele até utilizado",
+      "raw_text": "ele até utilizado",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
       "wav_seconds": 2.875,
-      "likelihood": 0.018991582015742664,
+      "transcribe_seconds": 0.4194984839996323,
+      "speech_confidence": null,
+      "wav_name": "200.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "QUE DIA é  O    EXAME",
-        "actual": "*** *** ELE ATé UTILIZADO",
+        "reference": [
+          "que",
+          "dia",
+          "é",
+          "o",
+          "exame"
+        ],
+        "hypothesis": [
+          "ele",
+          "até",
+          "utilizado"
+        ],
+        "differences": [
+          "é:ele",
+          "o:até",
+          "exame:utilizado"
+        ],
         "words": 5,
-        "correct": 0,
-        "errors": 5
+        "errors": 5,
+        "matches": 0,
+        "substitutions": 3,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0.6
+      }
+    },
+    "197.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "text": "eles morato e mês de usadas atenta",
+      "raw_text": "eles morato e mês de usadas atenta",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 6.625,
+      "transcribe_seconds": 0.5304209679998166,
+      "speech_confidence": null,
+      "wav_name": "197.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "eles",
+          "moram",
+          "aqui",
+          "desde",
+          "os",
+          "anos",
+          "setenta"
+        ],
+        "hypothesis": [
+          "eles",
+          "morato",
+          "e",
+          "mês",
+          "de",
+          "usadas",
+          "atenta"
+        ],
+        "differences": [
+          "eles",
+          "moram:morato",
+          "aqui:e",
+          "desde:mês",
+          "os:de",
+          "anos:usadas",
+          "setenta:atenta"
+        ],
+        "words": 7,
+        "errors": 6,
+        "matches": 1,
+        "substitutions": 6,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0.8571428571428571
+      }
+    },
+    "204.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "text": "primeira maior era estudos coincidência wall os ela de a terra",
+      "raw_text": "primeira maior era estudos coincidência wall os ela de a terra",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 7.875,
+      "transcribe_seconds": 0.7765302360021451,
+      "speech_confidence": null,
+      "wav_name": "204.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "a",
+          "primeira",
+          "maior",
+          "guerra",
+          "de",
+          "todas",
+          "foi",
+          "entre",
+          "o",
+          "bem",
+          "e",
+          "o",
+          "mal",
+          "o",
+          "ceu",
+          "e",
+          "a",
+          "terra"
+        ],
+        "hypothesis": [
+          "primeira",
+          "maior",
+          "era",
+          "estudos",
+          "coincidência",
+          "wall",
+          "os",
+          "ela",
+          "de",
+          "a",
+          "terra"
+        ],
+        "differences": [
+          "primeira",
+          "maior",
+          "-guerra",
+          "-de",
+          "-todas",
+          "-foi",
+          "-entre",
+          "-o",
+          "bem:era",
+          "e:estudos",
+          "o:coincidência",
+          "mal:wall",
+          "o:os",
+          "ceu:ela",
+          "e:de",
+          "a",
+          "terra"
+        ],
+        "words": 18,
+        "errors": 14,
+        "matches": 4,
+        "substitutions": 7,
+        "deletions": 6,
+        "insertions": 0,
+        "error_rate": 0.7222222222222222
       }
     }
   },
-  "expected": {
-    "203.wav": {
-      "text": "o zorro é outro dos filmes muito procurados nas locadoras atualmente"
-    },
-    "198.wav": {
-      "text": "por que você está sorrindo"
-    },
-    "206.wav": {
-      "text": "eu prefiro ser essa metamorfose ambulante"
-    },
-    "205.wav": {
-      "text": "e melhor nunca engomar os lençóis azuis debaixo de sol"
-    },
-    "202.wav": {
-      "text": "o jovem atacante convenceu fácil na partida contra o méxico"
-    },
-    "197.wav": {
-      "text": "eles moram aqui desde os anos setenta"
-    },
-    "199.wav": {
-      "text": "passamos pelo parque para chegar em casa"
-    },
-    "201.wav": {
-      "text": "o presidente da república faz advertência ao ministro da justiça"
-    },
-    "204.wav": {
-      "text": "a primeira maior guerra de todas foi entre o bem e o mal o ceu e a terra"
-    },
-    "200.wav": {
-      "text": "que dia é o exame"
-    }
-  }
+  "num_wavs": 10,
+  "num_words": 89,
+  "num_intents": 0,
+  "num_entities": 0,
+  "correct_transcriptions": 0,
+  "correct_intent_names": 0,
+  "correct_words": 21,
+  "correct_entities": 0,
+  "correct_intent_and_entities": 0,
+  "transcription_accuracy": 0.23595505617977527,
+  "intent_accuracy": 1,
+  "entity_accuracy": 1,
+  "intent_entity_accuracy": 1,
+  "average_transcription_speedup": 9.529354650612099
 }

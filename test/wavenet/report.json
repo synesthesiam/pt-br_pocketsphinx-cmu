@@ -1,515 +1,411 @@
 {
-  "statistics": {
-    "num_wavs": 31,
-    "num_words": 107,
-    "num_entities": 0,
-    "correct_transcriptions": 22,
-    "correct_intent_names": 0,
-    "correct_words": 96,
-    "correct_entities": 0,
-    "transcription_accuracy": 0.897196261682243,
-    "intent_accuracy": 1,
-    "entity_accuracy": 1,
-    "intent_entity_accuracy": 1,
-    "average_transcription_speedup": 77.55731993036652
-  },
-  "actual": {
-    "apague_lâmpada.wav": {
-      "text": "off lâmpada",
-      "intent": {
-        "name": "ChangeLightState",
-        "confidence": 1
-      },
-      "entities": [
-        {
-          "entity": "state",
-          "value": "off",
-          "raw_value": "apague",
-          "start": 0,
-          "raw_start": 0,
-          "end": 3,
-          "raw_end": 6
-        },
-        {
-          "entity": "name",
-          "value": "lâmpada",
-          "raw_value": "lâmpada",
-          "start": 4,
-          "raw_start": 7,
-          "end": 11,
-          "raw_end": 14
-        }
-      ],
-      "raw_text": "apague lâmpada",
-      "tokens": [
-        "off",
-        "lâmpada"
-      ],
-      "raw_tokens": [
-        "apague",
-        "lâmpada"
-      ],
-      "slots": {
-        "state": "off",
-        "name": "lâmpada"
-      },
-      "intents": [],
-      "recognize_seconds": 0.0006532669067382812,
-      "transcribe_seconds": 0.01961994171142578,
-      "wav_seconds": 1.41975,
-      "likelihood": 0.5999798455760196,
-      "word_error": {
-        "expected": "apague lâmpada",
-        "actual": "apague lâmpada",
-        "words": 2,
-        "correct": 2,
-        "errors": 0
-      }
-    },
-    "qual_a_temperatura_interna.wav": {
-      "text": "qual a temperatura interna",
-      "intent": {
-        "name": "GetTemperature",
-        "confidence": 1
-      },
-      "entities": [
-        {
-          "entity": "name",
-          "value": "interna",
-          "raw_value": "interna",
-          "start": 19,
-          "raw_start": 19,
-          "end": 26,
-          "raw_end": 26
-        }
-      ],
-      "raw_text": "qual a temperatura interna",
-      "tokens": [
-        "qual",
-        "a",
-        "temperatura",
-        "interna"
-      ],
-      "raw_tokens": [
-        "qual",
-        "a",
-        "temperatura",
-        "interna"
-      ],
-      "slots": {
-        "name": "interna"
-      },
-      "intents": [],
-      "recognize_seconds": 0.00038552284240722656,
-      "transcribe_seconds": 0.027932167053222656,
-      "wav_seconds": 1.9280625,
-      "likelihood": 0.6032288778370598,
-      "word_error": {
-        "expected": "qual a   temperatura interna",
-        "actual": "qual a   temperatura interna",
-        "words": 4,
-        "correct": 4,
-        "errors": 0
-      }
-    },
-    "ligar_régua.wav": {
-      "text": "on régua",
-      "intent": {
-        "name": "ChangeLightState",
-        "confidence": 1
-      },
-      "entities": [
-        {
-          "entity": "state",
-          "value": "on",
-          "raw_value": "ligar",
-          "start": 0,
-          "raw_start": 0,
-          "end": 2,
-          "raw_end": 5
-        },
-        {
-          "entity": "name",
-          "value": "régua",
-          "raw_value": "régua",
-          "start": 3,
-          "raw_start": 6,
-          "end": 8,
-          "raw_end": 11
-        }
-      ],
-      "raw_text": "ligar régua",
-      "tokens": [
-        "on",
-        "régua"
-      ],
-      "raw_tokens": [
-        "ligar",
-        "régua"
-      ],
-      "slots": {
-        "state": "on",
-        "name": "régua"
-      },
-      "intents": [],
-      "recognize_seconds": 0.000400543212890625,
-      "transcribe_seconds": 0.016111135482788086,
-      "wav_seconds": 1.1076875,
-      "likelihood": 0.471146009358181,
-      "word_error": {
-        "expected": "ligar régua",
-        "actual": "ligar régua",
-        "words": 2,
-        "correct": 2,
-        "errors": 0
-      }
-    },
-    "qual_o_status_da_garagem.wav": {
-      "text": "qual o status da garagem",
-      "intent": {
-        "name": "GetGarageState",
-        "confidence": 1
-      },
+  "expected": {
+    "ligar_a_régua.wav": {
+      "intent": null,
       "entities": [],
-      "raw_text": "qual o status da garagem",
-      "tokens": [
-        "qual",
-        "o",
-        "status",
-        "da",
-        "garagem"
-      ],
-      "raw_tokens": [
-        "qual",
-        "o",
-        "status",
-        "da",
-        "garagem"
-      ],
-      "slots": {},
-      "intents": [],
-      "recognize_seconds": 0.0003285408020019531,
-      "transcribe_seconds": 0.02678990364074707,
-      "wav_seconds": 2.0164375,
-      "likelihood": 0.8130814539407046,
-      "word_error": {
-        "expected": "qual o   status da  garagem",
-        "actual": "qual o   status da  garagem",
-        "words": 5,
-        "correct": 5,
-        "errors": 0
-      }
+      "text": "ligar a régua",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
     },
-    "desligar_a_lâmpada.wav": {
-      "text": "off lâmpada",
-      "intent": {
-        "name": "ChangeLightState",
-        "confidence": 1
-      },
-      "entities": [
-        {
-          "entity": "state",
-          "value": "off",
-          "raw_value": "desligar",
-          "start": 0,
-          "raw_start": 0,
-          "end": 3,
-          "raw_end": 8
-        },
-        {
-          "entity": "name",
-          "value": "lâmpada",
-          "raw_value": "lâmpada",
-          "start": 4,
-          "raw_start": 9,
-          "end": 11,
-          "raw_end": 16
-        }
-      ],
-      "raw_text": "desligar lâmpada",
-      "tokens": [
-        "off",
-        "lâmpada"
-      ],
-      "raw_tokens": [
-        "desligar",
-        "lâmpada"
-      ],
-      "slots": {
-        "state": "off",
-        "name": "lâmpada"
-      },
-      "intents": [],
-      "recognize_seconds": 0.0009050369262695312,
-      "transcribe_seconds": 0.021353721618652344,
-      "wav_seconds": 1.683625,
-      "likelihood": 0.70409593073025,
-      "word_error": {
-        "expected": "desligar A   lâmpada",
-        "actual": "desligar *** lâmpada",
-        "words": 3,
-        "correct": 2,
-        "errors": 1
-      }
+    "apague_a_lâmpada.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "apague a lâmpada",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
     },
-    "acenda_lâmpada.wav": {
-      "text": "on lâmpada",
-      "intent": {
-        "name": "ChangeLightState",
-        "confidence": 1
-      },
-      "entities": [
-        {
-          "entity": "state",
-          "value": "on",
-          "raw_value": "acenda",
-          "start": 0,
-          "raw_start": 0,
-          "end": 2,
-          "raw_end": 6
-        },
-        {
-          "entity": "name",
-          "value": "lâmpada",
-          "raw_value": "lâmpada",
-          "start": 3,
-          "raw_start": 7,
-          "end": 10,
-          "raw_end": 14
-        }
-      ],
-      "raw_text": "acenda lâmpada",
-      "tokens": [
-        "on",
-        "lâmpada"
-      ],
-      "raw_tokens": [
-        "acenda",
-        "lâmpada"
-      ],
-      "slots": {
-        "state": "on",
-        "name": "lâmpada"
-      },
-      "intents": [],
-      "recognize_seconds": 0.0005075931549072266,
-      "transcribe_seconds": 0.0178680419921875,
-      "wav_seconds": 1.4013125,
-      "likelihood": 0.6843786318586493,
-      "word_error": {
-        "expected": "acenda lâmpada",
-        "actual": "acenda lâmpada",
-        "words": 2,
-        "correct": 2,
-        "errors": 0
-      }
+    "qual_a_qualidade_do_ar.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "qual a qualidade do ar",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
     },
-    "qual_é_a_temperatura_externa.wav": {
-      "text": "qual a temperatura externa",
-      "intent": {
-        "name": "GetTemperature",
-        "confidence": 1
-      },
-      "entities": [
-        {
-          "entity": "name",
-          "value": "externa",
-          "raw_value": "externa",
-          "start": 19,
-          "raw_start": 19,
-          "end": 26,
-          "raw_end": 26
-        }
-      ],
-      "raw_text": "qual a temperatura externa",
-      "tokens": [
-        "qual",
-        "a",
-        "temperatura",
-        "externa"
-      ],
-      "raw_tokens": [
-        "qual",
-        "a",
-        "temperatura",
-        "externa"
-      ],
-      "slots": {
-        "name": "externa"
-      },
-      "intents": [],
-      "recognize_seconds": 0.00034809112548828125,
-      "transcribe_seconds": 0.028778076171875,
-      "wav_seconds": 2.2995625,
-      "likelihood": 0.7918945455806753,
-      "word_error": {
-        "expected": "qual é  a   temperatura externa",
-        "actual": "qual *** a   temperatura externa",
-        "words": 5,
-        "correct": 4,
-        "errors": 1
-      }
+    "ligar_a_lâmpada.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "ligar a lâmpada",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
     },
-    "ligar_luz_do_quarto.wav": {
-      "text": "on luz do quarto",
-      "intent": {
-        "name": "ChangeLightState",
-        "confidence": 1
-      },
-      "entities": [
-        {
-          "entity": "state",
-          "value": "on",
-          "raw_value": "ligar",
-          "start": 0,
-          "raw_start": 0,
-          "end": 2,
-          "raw_end": 5
-        },
-        {
-          "entity": "name",
-          "value": "luz do quarto",
-          "raw_value": "luz do quarto",
-          "start": 3,
-          "raw_start": 6,
-          "end": 16,
-          "raw_end": 19
-        }
-      ],
-      "raw_text": "ligar luz do quarto",
-      "tokens": [
-        "on",
-        "luz",
-        "do",
-        "quarto"
-      ],
-      "raw_tokens": [
-        "ligar",
-        "luz",
-        "do",
-        "quarto"
-      ],
-      "slots": {
-        "state": "on",
-        "name": "luz do quarto"
-      },
-      "intents": [],
-      "recognize_seconds": 0.00045180320739746094,
-      "transcribe_seconds": 0.02353644371032715,
-      "wav_seconds": 1.7698125,
-      "likelihood": 0.5138226132099749,
-      "word_error": {
-        "expected": "ligar luz do  quarto",
-        "actual": "ligar luz do  quarto",
-        "words": 4,
-        "correct": 4,
-        "errors": 0
-      }
-    },
-    "apague_luz_do_quarto.wav": {
-      "text": "off luz do quarto",
-      "intent": {
-        "name": "ChangeLightState",
-        "confidence": 1
-      },
-      "entities": [
-        {
-          "entity": "state",
-          "value": "off",
-          "raw_value": "apague",
-          "start": 0,
-          "raw_start": 0,
-          "end": 3,
-          "raw_end": 6
-        },
-        {
-          "entity": "name",
-          "value": "luz do quarto",
-          "raw_value": "luz do quarto",
-          "start": 4,
-          "raw_start": 7,
-          "end": 17,
-          "raw_end": 20
-        }
-      ],
-      "raw_text": "apague luz do quarto",
-      "tokens": [
-        "off",
-        "luz",
-        "do",
-        "quarto"
-      ],
-      "raw_tokens": [
-        "apague",
-        "luz",
-        "do",
-        "quarto"
-      ],
-      "slots": {
-        "state": "off",
-        "name": "luz do quarto"
-      },
-      "intents": [],
-      "recognize_seconds": 0.00047516822814941406,
-      "transcribe_seconds": 0.02245163917541504,
-      "wav_seconds": 1.7983125,
-      "likelihood": 0.6067988631221576,
-      "word_error": {
-        "expected": "apague luz do  quarto",
-        "actual": "apague luz do  quarto",
-        "words": 4,
-        "correct": 4,
-        "errors": 0
-      }
-    },
-    "qual_a_temperatura_externa.wav": {
-      "text": "qual a temperatura externa",
-      "intent": {
-        "name": "GetTemperature",
-        "confidence": 1
-      },
-      "entities": [
-        {
-          "entity": "name",
-          "value": "externa",
-          "raw_value": "externa",
-          "start": 19,
-          "raw_start": 19,
-          "end": 26,
-          "raw_end": 26
-        }
-      ],
-      "raw_text": "qual a temperatura externa",
-      "tokens": [
-        "qual",
-        "a",
-        "temperatura",
-        "externa"
-      ],
-      "raw_tokens": [
-        "qual",
-        "a",
-        "temperatura",
-        "externa"
-      ],
-      "slots": {
-        "name": "externa"
-      },
-      "intents": [],
-      "recognize_seconds": 0.00035190582275390625,
-      "transcribe_seconds": 0.025661945343017578,
-      "wav_seconds": 2.0568125,
-      "likelihood": 0.6337169509234706,
-      "word_error": {
-        "expected": "qual a   temperatura externa",
-        "actual": "qual a   temperatura externa",
-        "words": 4,
-        "correct": 4,
-        "errors": 0
-      }
+    "desligar_régua.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "desligar régua",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
     },
     "acenda_régua.wav": {
-      "text": "on régua",
+      "intent": null,
+      "entities": [],
+      "text": "acenda régua",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "apague_lâmpada.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "apague lâmpada",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "desligar_luz_do_quarto.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "desligar luz do quarto",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "qual_é_a_temperatura_externa.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "qual é a temperatura externa",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "ligar_régua.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "ligar régua",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "qual_a_temperatura_interna.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "qual a temperatura interna",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "acenda_a_régua.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "acenda a régua",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "desligar_lâmpada.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "desligar lâmpada",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "acenda_a_lâmpada.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "acenda a lâmpada",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "apague_luz_do_quarto.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "apague luz do quarto",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "qual_a_temperatura_externa.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "qual a temperatura externa",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "acenda_lâmpada.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "acenda lâmpada",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "qual_o_status_da_garagem.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "qual o status da garagem",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "desligar_a_lâmpada.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "desligar a lâmpada",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "ligar_lâmpada.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "ligar lâmpada",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "apague_a_luz_do_quarto.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "apague a luz do quarto",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "acenda_a_luz_do_quarto.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "acenda a luz do quarto",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "qual_é_a_temperatura_interna.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "qual é a temperatura interna",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "que_horas_são.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "que horas são",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "desligar_a_luz_do_quarto.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "desligar a luz do quarto",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "apague_régua.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "apague régua",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "acenda_luz_do_quarto.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "acenda luz do quarto",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "desligar_a_régua.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "desligar a régua",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "ligar_a_luz_do_quarto.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "ligar a luz do quarto",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "apague_a_régua.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "apague a régua",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "ligar_luz_do_quarto.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "ligar luz do quarto",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    }
+  },
+  "actual": {
+    "ligar_a_régua.wav": {
       "intent": {
         "name": "ChangeLightState",
         "confidence": 1
@@ -518,50 +414,74 @@
         {
           "entity": "state",
           "value": "on",
-          "raw_value": "acenda",
+          "raw_value": "",
+          "source": "",
           "start": 0,
           "raw_start": 0,
-          "end": 2,
-          "raw_end": 6
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
         },
         {
           "entity": "name",
           "value": "régua",
-          "raw_value": "régua",
-          "start": 3,
-          "raw_start": 7,
-          "end": 8,
-          "raw_end": 12
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
         }
       ],
-      "raw_text": "acenda régua",
+      "text": "on a régua",
+      "raw_text": "ligar a régua",
+      "recognize_seconds": 0.00046247499994933605,
       "tokens": [
         "on",
+        "a",
         "régua"
       ],
       "raw_tokens": [
-        "acenda",
+        "ligar",
+        "a",
         "régua"
       ],
-      "slots": {
-        "state": "on",
-        "name": "régua"
-      },
-      "intents": [],
-      "recognize_seconds": 0.0004246234893798828,
-      "transcribe_seconds": 0.0156252384185791,
-      "wav_seconds": 1.240125,
-      "likelihood": 0.8203510231077608,
+      "wav_seconds": 1.2728125,
+      "transcribe_seconds": 0.03800354299892206,
+      "speech_confidence": null,
+      "wav_name": "ligar_a_régua.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "acenda régua",
-        "actual": "acenda régua",
-        "words": 2,
-        "correct": 2,
-        "errors": 0
+        "reference": [
+          "ligar",
+          "a",
+          "régua"
+        ],
+        "hypothesis": [
+          "ligar",
+          "a",
+          "régua"
+        ],
+        "differences": [
+          "ligar",
+          "a",
+          "régua"
+        ],
+        "words": 3,
+        "errors": 0,
+        "matches": 3,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
       }
     },
-    "apague_a_luz_do_quarto.wav": {
-      "text": "off a luz do quarto",
+    "apague_a_lâmpada.wav": {
       "intent": {
         "name": "ChangeLightState",
         "confidence": 1
@@ -570,185 +490,630 @@
         {
           "entity": "state",
           "value": "off",
-          "raw_value": "apague",
+          "raw_value": "",
+          "source": "",
           "start": 0,
           "raw_start": 0,
-          "end": 3,
-          "raw_end": 6
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
         },
         {
           "entity": "name",
-          "value": "luz do quarto",
-          "raw_value": "luz do quarto",
-          "start": 6,
-          "raw_start": 9,
-          "end": 19,
-          "raw_end": 22
+          "value": "lâmpada",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
         }
       ],
-      "raw_text": "apague a luz do quarto",
+      "text": "off a lâmpada",
+      "raw_text": "apague a lâmpada",
+      "recognize_seconds": 0.0005436909996205941,
       "tokens": [
         "off",
         "a",
-        "luz",
-        "do",
-        "quarto"
+        "lâmpada"
       ],
       "raw_tokens": [
         "apague",
         "a",
-        "luz",
-        "do",
-        "quarto"
+        "lâmpada"
       ],
-      "slots": {
-        "state": "off",
-        "name": "luz do quarto"
-      },
-      "intents": [],
-      "recognize_seconds": 0.0004534721374511719,
-      "transcribe_seconds": 0.021259784698486328,
-      "wav_seconds": 1.9063125,
-      "likelihood": 0.7956256436376153,
+      "wav_seconds": 1.5855625,
+      "transcribe_seconds": 0.04139559499890311,
+      "speech_confidence": null,
+      "wav_name": "apague_a_lâmpada.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "apague a   luz do  quarto",
-        "actual": "apague a   luz do  quarto",
-        "words": 5,
-        "correct": 5,
-        "errors": 0
-      }
-    },
-    "apague_régua.wav": {
-      "text": "off régua",
-      "intent": {
-        "name": "ChangeLightState",
-        "confidence": 1
-      },
-      "entities": [
-        {
-          "entity": "state",
-          "value": "off",
-          "raw_value": "apague",
-          "start": 0,
-          "raw_start": 0,
-          "end": 3,
-          "raw_end": 6
-        },
-        {
-          "entity": "name",
-          "value": "régua",
-          "raw_value": "régua",
-          "start": 4,
-          "raw_start": 7,
-          "end": 9,
-          "raw_end": 12
-        }
-      ],
-      "raw_text": "apague régua",
-      "tokens": [
-        "off",
-        "régua"
-      ],
-      "raw_tokens": [
-        "apague",
-        "régua"
-      ],
-      "slots": {
-        "state": "off",
-        "name": "régua"
-      },
-      "intents": [],
-      "recognize_seconds": 0.00041866302490234375,
-      "transcribe_seconds": 0.015745878219604492,
-      "wav_seconds": 1.2239375,
-      "likelihood": 0.6536721975476325,
-      "word_error": {
-        "expected": "apague régua",
-        "actual": "apague régua",
-        "words": 2,
-        "correct": 2,
-        "errors": 0
-      }
-    },
-    "desligar_luz_do_quarto.wav": {
-      "text": "off luz do quarto",
-      "intent": {
-        "name": "ChangeLightState",
-        "confidence": 1
-      },
-      "entities": [
-        {
-          "entity": "state",
-          "value": "off",
-          "raw_value": "desligar",
-          "start": 0,
-          "raw_start": 0,
-          "end": 3,
-          "raw_end": 8
-        },
-        {
-          "entity": "name",
-          "value": "luz do quarto",
-          "raw_value": "luz do quarto",
-          "start": 4,
-          "raw_start": 9,
-          "end": 17,
-          "raw_end": 22
-        }
-      ],
-      "raw_text": "desligar luz do quarto",
-      "tokens": [
-        "off",
-        "luz",
-        "do",
-        "quarto"
-      ],
-      "raw_tokens": [
-        "desligar",
-        "luz",
-        "do",
-        "quarto"
-      ],
-      "slots": {
-        "state": "off",
-        "name": "luz do quarto"
-      },
-      "intents": [],
-      "recognize_seconds": 0.00046324729919433594,
-      "transcribe_seconds": 0.02454519271850586,
-      "wav_seconds": 1.8995,
-      "likelihood": 0.7368024979176767,
-      "word_error": {
-        "expected": "desligar luz do  quarto",
-        "actual": "desligar luz do  quarto",
-        "words": 4,
-        "correct": 4,
-        "errors": 0
+        "reference": [
+          "apague",
+          "a",
+          "lâmpada"
+        ],
+        "hypothesis": [
+          "apague",
+          "a",
+          "lâmpada"
+        ],
+        "differences": [
+          "apague",
+          "a",
+          "lâmpada"
+        ],
+        "words": 3,
+        "errors": 0,
+        "matches": 3,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
       }
     },
     "qual_a_qualidade_do_ar.wav": {
-      "text": "apague apague do ar",
       "intent": {
         "name": "",
         "confidence": 0
       },
       "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.000362396240234375,
-      "transcribe_seconds": 0.023648738861083984,
+      "text": "apague apague do ar",
+      "raw_text": "apague apague do ar",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
       "wav_seconds": 1.8144375,
-      "likelihood": 0.6330834773345454,
+      "transcribe_seconds": 0.04123866300142254,
+      "speech_confidence": null,
+      "wav_name": "qual_a_qualidade_do_ar.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "QUAL A      QUALIDADE do  ar",
-        "actual": "***  APAGUE APAGUE    do  ar",
+        "reference": [
+          "qual",
+          "a",
+          "qualidade",
+          "do",
+          "ar"
+        ],
+        "hypothesis": [
+          "apague",
+          "apague",
+          "do",
+          "ar"
+        ],
+        "differences": [
+          "a:apague",
+          "qualidade:apague",
+          "do",
+          "ar"
+        ],
         "words": 5,
-        "correct": 2,
-        "errors": 3
+        "errors": 3,
+        "matches": 2,
+        "substitutions": 2,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0.4
       }
     },
-    "qual_é_a_temperatura_interna.wav": {
-      "text": "qual a temperatura interna",
+    "ligar_a_lâmpada.wav": {
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "on",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        },
+        {
+          "entity": "name",
+          "value": "lâmpada",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        }
+      ],
+      "text": "on lâmpada",
+      "raw_text": "ligar lâmpada",
+      "recognize_seconds": 0.0003582400022423826,
+      "tokens": [
+        "on",
+        "lâmpada"
+      ],
+      "raw_tokens": [
+        "ligar",
+        "lâmpada"
+      ],
+      "wav_seconds": 1.4665625,
+      "transcribe_seconds": 0.034287056001630845,
+      "speech_confidence": null,
+      "wav_name": "ligar_a_lâmpada.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "ligar",
+          "a",
+          "lâmpada"
+        ],
+        "hypothesis": [
+          "ligar",
+          "lâmpada"
+        ],
+        "differences": [
+          "ligar",
+          "-a",
+          "lâmpada"
+        ],
+        "words": 3,
+        "errors": 1,
+        "matches": 2,
+        "substitutions": 0,
+        "deletions": 1,
+        "insertions": 0,
+        "error_rate": 0.3333333333333333
+      }
+    },
+    "desligar_régua.wav": {
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "off",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        },
+        {
+          "entity": "name",
+          "value": "régua",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        }
+      ],
+      "text": "off régua",
+      "raw_text": "desligar régua",
+      "recognize_seconds": 0.00039389099765685387,
+      "tokens": [
+        "off",
+        "régua"
+      ],
+      "raw_tokens": [
+        "desligar",
+        "régua"
+      ],
+      "wav_seconds": 1.37725,
+      "transcribe_seconds": 0.04061673000251176,
+      "speech_confidence": null,
+      "wav_name": "desligar_régua.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "desligar",
+          "régua"
+        ],
+        "hypothesis": [
+          "desligar",
+          "régua"
+        ],
+        "differences": [
+          "desligar",
+          "régua"
+        ],
+        "words": 2,
+        "errors": 0,
+        "matches": 2,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "acenda_régua.wav": {
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "on",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        },
+        {
+          "entity": "name",
+          "value": "régua",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        }
+      ],
+      "text": "on régua",
+      "raw_text": "acenda régua",
+      "recognize_seconds": 0.001051162998919608,
+      "tokens": [
+        "on",
+        "régua"
+      ],
+      "raw_tokens": [
+        "acenda",
+        "régua"
+      ],
+      "wav_seconds": 1.240125,
+      "transcribe_seconds": 0.03004470399901038,
+      "speech_confidence": null,
+      "wav_name": "acenda_régua.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "acenda",
+          "régua"
+        ],
+        "hypothesis": [
+          "acenda",
+          "régua"
+        ],
+        "differences": [
+          "acenda",
+          "régua"
+        ],
+        "words": 2,
+        "errors": 0,
+        "matches": 2,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "apague_lâmpada.wav": {
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "off",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        },
+        {
+          "entity": "name",
+          "value": "lâmpada",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        }
+      ],
+      "text": "off lâmpada",
+      "raw_text": "apague lâmpada",
+      "recognize_seconds": 0.0006262490023800638,
+      "tokens": [
+        "off",
+        "lâmpada"
+      ],
+      "raw_tokens": [
+        "apague",
+        "lâmpada"
+      ],
+      "wav_seconds": 1.41975,
+      "transcribe_seconds": 0.03091558899905067,
+      "speech_confidence": null,
+      "wav_name": "apague_lâmpada.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "apague",
+          "lâmpada"
+        ],
+        "hypothesis": [
+          "apague",
+          "lâmpada"
+        ],
+        "differences": [
+          "apague",
+          "lâmpada"
+        ],
+        "words": 2,
+        "errors": 0,
+        "matches": 2,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "desligar_luz_do_quarto.wav": {
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "off",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        },
+        {
+          "entity": "name",
+          "value": "luz do quarto",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        }
+      ],
+      "text": "off luz do quarto",
+      "raw_text": "desligar luz do quarto",
+      "recognize_seconds": 0.00038829400000395253,
+      "tokens": [
+        "off",
+        "luz",
+        "do",
+        "quarto"
+      ],
+      "raw_tokens": [
+        "desligar",
+        "luz",
+        "do",
+        "quarto"
+      ],
+      "wav_seconds": 1.8995,
+      "transcribe_seconds": 0.04560660700008157,
+      "speech_confidence": null,
+      "wav_name": "desligar_luz_do_quarto.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "desligar",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "hypothesis": [
+          "desligar",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "differences": [
+          "desligar",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "words": 4,
+        "errors": 0,
+        "matches": 4,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "qual_é_a_temperatura_externa.wav": {
+      "intent": {
+        "name": "GetTemperature",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "name",
+          "value": "externa",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        }
+      ],
+      "text": "qual a temperatura externa",
+      "raw_text": "qual a temperatura externa",
+      "recognize_seconds": 0.00046328099779202603,
+      "tokens": [
+        "qual",
+        "a",
+        "temperatura",
+        "externa"
+      ],
+      "raw_tokens": [
+        "qual",
+        "a",
+        "temperatura",
+        "externa"
+      ],
+      "wav_seconds": 2.2995625,
+      "transcribe_seconds": 0.04813856200053124,
+      "speech_confidence": null,
+      "wav_name": "qual_é_a_temperatura_externa.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "qual",
+          "é",
+          "a",
+          "temperatura",
+          "externa"
+        ],
+        "hypothesis": [
+          "qual",
+          "a",
+          "temperatura",
+          "externa"
+        ],
+        "differences": [
+          "qual",
+          "-é",
+          "a",
+          "temperatura",
+          "externa"
+        ],
+        "words": 5,
+        "errors": 1,
+        "matches": 4,
+        "substitutions": 0,
+        "deletions": 1,
+        "insertions": 0,
+        "error_rate": 0.2
+      }
+    },
+    "ligar_régua.wav": {
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "on",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        },
+        {
+          "entity": "name",
+          "value": "régua",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        }
+      ],
+      "text": "on régua",
+      "raw_text": "ligar régua",
+      "recognize_seconds": 0.00041297000279882923,
+      "tokens": [
+        "on",
+        "régua"
+      ],
+      "raw_tokens": [
+        "ligar",
+        "régua"
+      ],
+      "wav_seconds": 1.1076875,
+      "transcribe_seconds": 0.031182837999949697,
+      "speech_confidence": null,
+      "wav_name": "ligar_régua.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "ligar",
+          "régua"
+        ],
+        "hypothesis": [
+          "ligar",
+          "régua"
+        ],
+        "differences": [
+          "ligar",
+          "régua"
+        ],
+        "words": 2,
+        "errors": 0,
+        "matches": 2,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "qual_a_temperatura_interna.wav": {
       "intent": {
         "name": "GetTemperature",
         "confidence": 1
@@ -757,14 +1122,19 @@
         {
           "entity": "name",
           "value": "interna",
-          "raw_value": "interna",
-          "start": 19,
-          "raw_start": 19,
-          "end": 26,
-          "raw_end": 26
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
         }
       ],
+      "text": "qual a temperatura interna",
       "raw_text": "qual a temperatura interna",
+      "recognize_seconds": 0.00045577499986393377,
       "tokens": [
         "qual",
         "a",
@@ -777,24 +1147,42 @@
         "temperatura",
         "interna"
       ],
-      "slots": {
-        "name": "interna"
-      },
-      "intents": [],
-      "recognize_seconds": 0.00034928321838378906,
-      "transcribe_seconds": 0.026051998138427734,
-      "wav_seconds": 2.2976875,
-      "likelihood": 0.6788569180386139,
+      "wav_seconds": 1.9280625,
+      "transcribe_seconds": 0.044983702999161324,
+      "speech_confidence": null,
+      "wav_name": "qual_a_temperatura_interna.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "qual é  a   temperatura interna",
-        "actual": "qual *** a   temperatura interna",
-        "words": 5,
-        "correct": 4,
-        "errors": 1
+        "reference": [
+          "qual",
+          "a",
+          "temperatura",
+          "interna"
+        ],
+        "hypothesis": [
+          "qual",
+          "a",
+          "temperatura",
+          "interna"
+        ],
+        "differences": [
+          "qual",
+          "a",
+          "temperatura",
+          "interna"
+        ],
+        "words": 4,
+        "errors": 0,
+        "matches": 4,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
       }
     },
-    "ligar_a_lâmpada.wav": {
-      "text": "on lâmpada",
+    "acenda_a_régua.wav": {
       "intent": {
         "name": "ChangeLightState",
         "confidence": 1
@@ -803,82 +1191,500 @@
         {
           "entity": "state",
           "value": "on",
-          "raw_value": "ligar",
+          "raw_value": "",
+          "source": "",
           "start": 0,
           "raw_start": 0,
-          "end": 2,
-          "raw_end": 5
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        },
+        {
+          "entity": "name",
+          "value": "régua",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        }
+      ],
+      "text": "on régua",
+      "raw_text": "acenda régua",
+      "recognize_seconds": 0.0007324879989027977,
+      "tokens": [
+        "on",
+        "régua"
+      ],
+      "raw_tokens": [
+        "acenda",
+        "régua"
+      ],
+      "wav_seconds": 1.3683125,
+      "transcribe_seconds": 0.026139767000131542,
+      "speech_confidence": null,
+      "wav_name": "acenda_a_régua.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "acenda",
+          "a",
+          "régua"
+        ],
+        "hypothesis": [
+          "acenda",
+          "régua"
+        ],
+        "differences": [
+          "acenda",
+          "-a",
+          "régua"
+        ],
+        "words": 3,
+        "errors": 1,
+        "matches": 2,
+        "substitutions": 0,
+        "deletions": 1,
+        "insertions": 0,
+        "error_rate": 0.3333333333333333
+      }
+    },
+    "desligar_lâmpada.wav": {
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "off",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
         },
         {
           "entity": "name",
           "value": "lâmpada",
-          "raw_value": "lâmpada",
-          "start": 3,
-          "raw_start": 6,
-          "end": 10,
-          "raw_end": 13
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
         }
       ],
-      "raw_text": "ligar lâmpada",
+      "text": "off lâmpada",
+      "raw_text": "desligar lâmpada",
+      "recognize_seconds": 0.00036827599979005754,
+      "tokens": [
+        "off",
+        "lâmpada"
+      ],
+      "raw_tokens": [
+        "desligar",
+        "lâmpada"
+      ],
+      "wav_seconds": 1.5783125,
+      "transcribe_seconds": 0.03891708599985577,
+      "speech_confidence": null,
+      "wav_name": "desligar_lâmpada.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "desligar",
+          "lâmpada"
+        ],
+        "hypothesis": [
+          "desligar",
+          "lâmpada"
+        ],
+        "differences": [
+          "desligar",
+          "lâmpada"
+        ],
+        "words": 2,
+        "errors": 0,
+        "matches": 2,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "acenda_a_lâmpada.wav": {
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "on",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        },
+        {
+          "entity": "name",
+          "value": "lâmpada",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        }
+      ],
+      "text": "on a lâmpada",
+      "raw_text": "acenda a lâmpada",
+      "recognize_seconds": 0.0007533940006396733,
+      "tokens": [
+        "on",
+        "a",
+        "lâmpada"
+      ],
+      "raw_tokens": [
+        "acenda",
+        "a",
+        "lâmpada"
+      ],
+      "wav_seconds": 1.5655625,
+      "transcribe_seconds": 0.034063764000165975,
+      "speech_confidence": null,
+      "wav_name": "acenda_a_lâmpada.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "acenda",
+          "a",
+          "lâmpada"
+        ],
+        "hypothesis": [
+          "acenda",
+          "a",
+          "lâmpada"
+        ],
+        "differences": [
+          "acenda",
+          "a",
+          "lâmpada"
+        ],
+        "words": 3,
+        "errors": 0,
+        "matches": 3,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "apague_luz_do_quarto.wav": {
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "off",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        },
+        {
+          "entity": "name",
+          "value": "luz do quarto",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        }
+      ],
+      "text": "off luz do quarto",
+      "raw_text": "apague luz do quarto",
+      "recognize_seconds": 0.0005047519989602733,
+      "tokens": [
+        "off",
+        "luz",
+        "do",
+        "quarto"
+      ],
+      "raw_tokens": [
+        "apague",
+        "luz",
+        "do",
+        "quarto"
+      ],
+      "wav_seconds": 1.7983125,
+      "transcribe_seconds": 0.04091125700142584,
+      "speech_confidence": null,
+      "wav_name": "apague_luz_do_quarto.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "apague",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "hypothesis": [
+          "apague",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "differences": [
+          "apague",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "words": 4,
+        "errors": 0,
+        "matches": 4,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "qual_a_temperatura_externa.wav": {
+      "intent": {
+        "name": "GetTemperature",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "name",
+          "value": "externa",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        }
+      ],
+      "text": "qual a temperatura externa",
+      "raw_text": "qual a temperatura externa",
+      "recognize_seconds": 0.0004879180014540907,
+      "tokens": [
+        "qual",
+        "a",
+        "temperatura",
+        "externa"
+      ],
+      "raw_tokens": [
+        "qual",
+        "a",
+        "temperatura",
+        "externa"
+      ],
+      "wav_seconds": 2.0568125,
+      "transcribe_seconds": 0.04916111800048384,
+      "speech_confidence": null,
+      "wav_name": "qual_a_temperatura_externa.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "qual",
+          "a",
+          "temperatura",
+          "externa"
+        ],
+        "hypothesis": [
+          "qual",
+          "a",
+          "temperatura",
+          "externa"
+        ],
+        "differences": [
+          "qual",
+          "a",
+          "temperatura",
+          "externa"
+        ],
+        "words": 4,
+        "errors": 0,
+        "matches": 4,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "acenda_lâmpada.wav": {
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "on",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        },
+        {
+          "entity": "name",
+          "value": "lâmpada",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        }
+      ],
+      "text": "on lâmpada",
+      "raw_text": "acenda lâmpada",
+      "recognize_seconds": 0.0007055059977574274,
       "tokens": [
         "on",
         "lâmpada"
       ],
       "raw_tokens": [
-        "ligar",
+        "acenda",
         "lâmpada"
       ],
-      "slots": {
-        "state": "on",
-        "name": "lâmpada"
-      },
-      "intents": [],
-      "recognize_seconds": 0.0004429817199707031,
-      "transcribe_seconds": 0.01819467544555664,
-      "wav_seconds": 1.4665625,
-      "likelihood": 0.653084089089148,
+      "wav_seconds": 1.4013125,
+      "transcribe_seconds": 0.028739252000377746,
+      "speech_confidence": null,
+      "wav_name": "acenda_lâmpada.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "ligar A   lâmpada",
-        "actual": "ligar *** lâmpada",
-        "words": 3,
-        "correct": 2,
-        "errors": 1
+        "reference": [
+          "acenda",
+          "lâmpada"
+        ],
+        "hypothesis": [
+          "acenda",
+          "lâmpada"
+        ],
+        "differences": [
+          "acenda",
+          "lâmpada"
+        ],
+        "words": 2,
+        "errors": 0,
+        "matches": 2,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
       }
     },
-    "que_horas_são.wav": {
-      "text": "que horas são",
+    "qual_o_status_da_garagem.wav": {
       "intent": {
-        "name": "GetTime",
+        "name": "GetGarageState",
         "confidence": 1
       },
       "entities": [],
-      "raw_text": "que horas são",
+      "text": "qual o status da garagem",
+      "raw_text": "qual o status da garagem",
+      "recognize_seconds": 0.0005775310019089375,
       "tokens": [
-        "que",
-        "horas",
-        "são"
+        "qual",
+        "o",
+        "status",
+        "da",
+        "garagem"
       ],
       "raw_tokens": [
-        "que",
-        "horas",
-        "são"
+        "qual",
+        "o",
+        "status",
+        "da",
+        "garagem"
       ],
-      "slots": {},
-      "intents": [],
-      "recognize_seconds": 0.0003066062927246094,
-      "transcribe_seconds": 0.01285243034362793,
-      "wav_seconds": 1.0715625,
-      "likelihood": 0.7675661130525222,
+      "wav_seconds": 2.0164375,
+      "transcribe_seconds": 0.04728408200026024,
+      "speech_confidence": null,
+      "wav_name": "qual_o_status_da_garagem.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "que horas são",
-        "actual": "que horas são",
-        "words": 3,
-        "correct": 3,
-        "errors": 0
+        "reference": [
+          "qual",
+          "o",
+          "status",
+          "da",
+          "garagem"
+        ],
+        "hypothesis": [
+          "qual",
+          "o",
+          "status",
+          "da",
+          "garagem"
+        ],
+        "differences": [
+          "qual",
+          "o",
+          "status",
+          "da",
+          "garagem"
+        ],
+        "words": 5,
+        "errors": 0,
+        "matches": 5,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
       }
     },
-    "apague_a_régua.wav": {
-      "text": "off a régua",
+    "desligar_a_lâmpada.wav": {
       "intent": {
         "name": "ChangeLightState",
         "confidence": 1
@@ -887,486 +1693,71 @@
         {
           "entity": "state",
           "value": "off",
-          "raw_value": "apague",
+          "raw_value": "",
+          "source": "",
           "start": 0,
           "raw_start": 0,
-          "end": 3,
-          "raw_end": 6
-        },
-        {
-          "entity": "name",
-          "value": "régua",
-          "raw_value": "régua",
-          "start": 6,
-          "raw_start": 9,
-          "end": 11,
-          "raw_end": 14
-        }
-      ],
-      "raw_text": "apague a régua",
-      "tokens": [
-        "off",
-        "a",
-        "régua"
-      ],
-      "raw_tokens": [
-        "apague",
-        "a",
-        "régua"
-      ],
-      "slots": {
-        "state": "off",
-        "name": "régua"
-      },
-      "intents": [],
-      "recognize_seconds": 0.0004324913024902344,
-      "transcribe_seconds": 0.018710851669311523,
-      "wav_seconds": 1.3649375,
-      "likelihood": 0.5020377951090844,
-      "word_error": {
-        "expected": "apague a   régua",
-        "actual": "apague a   régua",
-        "words": 3,
-        "correct": 3,
-        "errors": 0
-      }
-    },
-    "desligar_a_régua.wav": {
-      "text": "off a régua",
-      "intent": {
-        "name": "ChangeLightState",
-        "confidence": 1
-      },
-      "entities": [
-        {
-          "entity": "state",
-          "value": "off",
-          "raw_value": "desligar",
-          "start": 0,
-          "raw_start": 0,
-          "end": 3,
-          "raw_end": 8
-        },
-        {
-          "entity": "name",
-          "value": "régua",
-          "raw_value": "régua",
-          "start": 6,
-          "raw_start": 11,
-          "end": 11,
-          "raw_end": 16
-        }
-      ],
-      "raw_text": "desligar a régua",
-      "tokens": [
-        "off",
-        "a",
-        "régua"
-      ],
-      "raw_tokens": [
-        "desligar",
-        "a",
-        "régua"
-      ],
-      "slots": {
-        "state": "off",
-        "name": "régua"
-      },
-      "intents": [],
-      "recognize_seconds": 0.0004444122314453125,
-      "transcribe_seconds": 0.02237105369567871,
-      "wav_seconds": 1.4988125,
-      "likelihood": 0.6833527146244007,
-      "word_error": {
-        "expected": "desligar a   régua",
-        "actual": "desligar a   régua",
-        "words": 3,
-        "correct": 3,
-        "errors": 0
-      }
-    },
-    "acenda_a_régua.wav": {
-      "text": "on régua",
-      "intent": {
-        "name": "ChangeLightState",
-        "confidence": 1
-      },
-      "entities": [
-        {
-          "entity": "state",
-          "value": "on",
-          "raw_value": "acenda",
-          "start": 0,
-          "raw_start": 0,
-          "end": 2,
-          "raw_end": 6
-        },
-        {
-          "entity": "name",
-          "value": "régua",
-          "raw_value": "régua",
-          "start": 3,
-          "raw_start": 7,
-          "end": 8,
-          "raw_end": 12
-        }
-      ],
-      "raw_text": "acenda régua",
-      "tokens": [
-        "on",
-        "régua"
-      ],
-      "raw_tokens": [
-        "acenda",
-        "régua"
-      ],
-      "slots": {
-        "state": "on",
-        "name": "régua"
-      },
-      "intents": [],
-      "recognize_seconds": 0.0004258155822753906,
-      "transcribe_seconds": 0.01644134521484375,
-      "wav_seconds": 1.3683125,
-      "likelihood": 0.6741209658290832,
-      "word_error": {
-        "expected": "acenda A   régua",
-        "actual": "acenda *** régua",
-        "words": 3,
-        "correct": 2,
-        "errors": 1
-      }
-    },
-    "ligar_a_régua.wav": {
-      "text": "on a régua",
-      "intent": {
-        "name": "ChangeLightState",
-        "confidence": 1
-      },
-      "entities": [
-        {
-          "entity": "state",
-          "value": "on",
-          "raw_value": "ligar",
-          "start": 0,
-          "raw_start": 0,
-          "end": 2,
-          "raw_end": 5
-        },
-        {
-          "entity": "name",
-          "value": "régua",
-          "raw_value": "régua",
-          "start": 5,
-          "raw_start": 8,
-          "end": 10,
-          "raw_end": 13
-        }
-      ],
-      "raw_text": "ligar a régua",
-      "tokens": [
-        "on",
-        "a",
-        "régua"
-      ],
-      "raw_tokens": [
-        "ligar",
-        "a",
-        "régua"
-      ],
-      "slots": {
-        "state": "on",
-        "name": "régua"
-      },
-      "intents": [],
-      "recognize_seconds": 0.00042128562927246094,
-      "transcribe_seconds": 0.019528627395629883,
-      "wav_seconds": 1.2728125,
-      "likelihood": 0.5235749938689142,
-      "word_error": {
-        "expected": "ligar a   régua",
-        "actual": "ligar a   régua",
-        "words": 3,
-        "correct": 3,
-        "errors": 0
-      }
-    },
-    "desligar_régua.wav": {
-      "text": "off régua",
-      "intent": {
-        "name": "ChangeLightState",
-        "confidence": 1
-      },
-      "entities": [
-        {
-          "entity": "state",
-          "value": "off",
-          "raw_value": "desligar",
-          "start": 0,
-          "raw_start": 0,
-          "end": 3,
-          "raw_end": 8
-        },
-        {
-          "entity": "name",
-          "value": "régua",
-          "raw_value": "régua",
-          "start": 4,
-          "raw_start": 9,
-          "end": 9,
-          "raw_end": 14
-        }
-      ],
-      "raw_text": "desligar régua",
-      "tokens": [
-        "off",
-        "régua"
-      ],
-      "raw_tokens": [
-        "desligar",
-        "régua"
-      ],
-      "slots": {
-        "state": "off",
-        "name": "régua"
-      },
-      "intents": [],
-      "recognize_seconds": 0.00043010711669921875,
-      "transcribe_seconds": 0.021385669708251953,
-      "wav_seconds": 1.37725,
-      "likelihood": 0.4857876488784522,
-      "word_error": {
-        "expected": "desligar régua",
-        "actual": "desligar régua",
-        "words": 2,
-        "correct": 2,
-        "errors": 0
-      }
-    },
-    "acenda_a_lâmpada.wav": {
-      "text": "on a lâmpada",
-      "intent": {
-        "name": "ChangeLightState",
-        "confidence": 1
-      },
-      "entities": [
-        {
-          "entity": "state",
-          "value": "on",
-          "raw_value": "acenda",
-          "start": 0,
-          "raw_start": 0,
-          "end": 2,
-          "raw_end": 6
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
         },
         {
           "entity": "name",
           "value": "lâmpada",
-          "raw_value": "lâmpada",
-          "start": 5,
-          "raw_start": 9,
-          "end": 12,
-          "raw_end": 16
-        }
-      ],
-      "raw_text": "acenda a lâmpada",
-      "tokens": [
-        "on",
-        "a",
-        "lâmpada"
-      ],
-      "raw_tokens": [
-        "acenda",
-        "a",
-        "lâmpada"
-      ],
-      "slots": {
-        "state": "on",
-        "name": "lâmpada"
-      },
-      "intents": [],
-      "recognize_seconds": 0.0004296302795410156,
-      "transcribe_seconds": 0.017745256423950195,
-      "wav_seconds": 1.5655625,
-      "likelihood": 0.5309043569003765,
-      "word_error": {
-        "expected": "acenda a   lâmpada",
-        "actual": "acenda a   lâmpada",
-        "words": 3,
-        "correct": 3,
-        "errors": 0
-      }
-    },
-    "acenda_a_luz_do_quarto.wav": {
-      "text": "on luz do quarto",
-      "intent": {
-        "name": "ChangeLightState",
-        "confidence": 1
-      },
-      "entities": [
-        {
-          "entity": "state",
-          "value": "on",
-          "raw_value": "acenda",
+          "raw_value": "",
+          "source": "",
           "start": 0,
           "raw_start": 0,
-          "end": 2,
-          "raw_end": 6
-        },
-        {
-          "entity": "name",
-          "value": "luz do quarto",
-          "raw_value": "luz do quarto",
-          "start": 3,
-          "raw_start": 7,
-          "end": 16,
-          "raw_end": 20
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
         }
       ],
-      "raw_text": "acenda luz do quarto",
-      "tokens": [
-        "on",
-        "luz",
-        "do",
-        "quarto"
-      ],
-      "raw_tokens": [
-        "acenda",
-        "luz",
-        "do",
-        "quarto"
-      ],
-      "slots": {
-        "state": "on",
-        "name": "luz do quarto"
-      },
-      "intents": [],
-      "recognize_seconds": 0.00046563148498535156,
-      "transcribe_seconds": 0.022644996643066406,
-      "wav_seconds": 1.9656875,
-      "likelihood": 0.8006544923381997,
-      "word_error": {
-        "expected": "acenda A   luz do  quarto",
-        "actual": "acenda *** luz do  quarto",
-        "words": 5,
-        "correct": 4,
-        "errors": 1
-      }
-    },
-    "ligar_a_luz_do_quarto.wav": {
-      "text": "on luz do quarto",
-      "intent": {
-        "name": "ChangeLightState",
-        "confidence": 1
-      },
-      "entities": [
-        {
-          "entity": "state",
-          "value": "on",
-          "raw_value": "ligar",
-          "start": 0,
-          "raw_start": 0,
-          "end": 2,
-          "raw_end": 5
-        },
-        {
-          "entity": "name",
-          "value": "luz do quarto",
-          "raw_value": "luz do quarto",
-          "start": 3,
-          "raw_start": 6,
-          "end": 16,
-          "raw_end": 19
-        }
-      ],
-      "raw_text": "ligar luz do quarto",
-      "tokens": [
-        "on",
-        "luz",
-        "do",
-        "quarto"
-      ],
-      "raw_tokens": [
-        "ligar",
-        "luz",
-        "do",
-        "quarto"
-      ],
-      "slots": {
-        "state": "on",
-        "name": "luz do quarto"
-      },
-      "intents": [],
-      "recognize_seconds": 0.000446319580078125,
-      "transcribe_seconds": 0.02338099479675293,
-      "wav_seconds": 1.9348125,
-      "likelihood": 0.7724948626537227,
-      "word_error": {
-        "expected": "ligar A   luz do  quarto",
-        "actual": "ligar *** luz do  quarto",
-        "words": 5,
-        "correct": 4,
-        "errors": 1
-      }
-    },
-    "desligar_a_luz_do_quarto.wav": {
-      "text": "off luz do quarto",
-      "intent": {
-        "name": "ChangeLightState",
-        "confidence": 1
-      },
-      "entities": [
-        {
-          "entity": "state",
-          "value": "off",
-          "raw_value": "desligar",
-          "start": 0,
-          "raw_start": 0,
-          "end": 3,
-          "raw_end": 8
-        },
-        {
-          "entity": "name",
-          "value": "luz do quarto",
-          "raw_value": "luz do quarto",
-          "start": 4,
-          "raw_start": 9,
-          "end": 17,
-          "raw_end": 22
-        }
-      ],
-      "raw_text": "desligar luz do quarto",
+      "text": "off lâmpada",
+      "raw_text": "desligar lâmpada",
+      "recognize_seconds": 0.00038245299947448075,
       "tokens": [
         "off",
-        "luz",
-        "do",
-        "quarto"
+        "lâmpada"
       ],
       "raw_tokens": [
         "desligar",
-        "luz",
-        "do",
-        "quarto"
+        "lâmpada"
       ],
-      "slots": {
-        "state": "off",
-        "name": "luz do quarto"
-      },
-      "intents": [],
-      "recognize_seconds": 0.0004477500915527344,
-      "transcribe_seconds": 0.025715112686157227,
-      "wav_seconds": 2.0945625,
-      "likelihood": 0.7971389449522117,
+      "wav_seconds": 1.683625,
+      "transcribe_seconds": 0.0396841849978955,
+      "speech_confidence": null,
+      "wav_name": "desligar_a_lâmpada.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "desligar A   luz do  quarto",
-        "actual": "desligar *** luz do  quarto",
-        "words": 5,
-        "correct": 4,
-        "errors": 1
+        "reference": [
+          "desligar",
+          "a",
+          "lâmpada"
+        ],
+        "hypothesis": [
+          "desligar",
+          "lâmpada"
+        ],
+        "differences": [
+          "desligar",
+          "-a",
+          "lâmpada"
+        ],
+        "words": 3,
+        "errors": 1,
+        "matches": 2,
+        "substitutions": 0,
+        "deletions": 1,
+        "insertions": 0,
+        "error_rate": 0.3333333333333333
       }
     },
     "ligar_lâmpada.wav": {
-      "text": "on lâmpada",
       "intent": {
         "name": "ChangeLightState",
         "confidence": 1
@@ -1375,23 +1766,31 @@
         {
           "entity": "state",
           "value": "on",
-          "raw_value": "ligar",
+          "raw_value": "",
+          "source": "",
           "start": 0,
           "raw_start": 0,
-          "end": 2,
-          "raw_end": 5
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
         },
         {
           "entity": "name",
           "value": "lâmpada",
-          "raw_value": "lâmpada",
-          "start": 3,
-          "raw_start": 6,
-          "end": 10,
-          "raw_end": 13
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
         }
       ],
+      "text": "on lâmpada",
       "raw_text": "ligar lâmpada",
+      "recognize_seconds": 0.0003681030029838439,
       "tokens": [
         "on",
         "lâmpada"
@@ -1400,25 +1799,36 @@
         "ligar",
         "lâmpada"
       ],
-      "slots": {
-        "state": "on",
-        "name": "lâmpada"
-      },
-      "intents": [],
-      "recognize_seconds": 0.0010807514190673828,
-      "transcribe_seconds": 0.019434213638305664,
       "wav_seconds": 1.3405,
-      "likelihood": 0.6149856457678624,
+      "transcribe_seconds": 0.033477057000709465,
+      "speech_confidence": null,
+      "wav_name": "ligar_lâmpada.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "ligar lâmpada",
-        "actual": "ligar lâmpada",
+        "reference": [
+          "ligar",
+          "lâmpada"
+        ],
+        "hypothesis": [
+          "ligar",
+          "lâmpada"
+        ],
+        "differences": [
+          "ligar",
+          "lâmpada"
+        ],
         "words": 2,
-        "correct": 2,
-        "errors": 0
+        "errors": 0,
+        "matches": 2,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
       }
     },
-    "apague_a_lâmpada.wav": {
-      "text": "off a lâmpada",
+    "apague_a_luz_do_quarto.wav": {
       "intent": {
         "name": "ChangeLightState",
         "confidence": 1
@@ -1427,52 +1837,84 @@
         {
           "entity": "state",
           "value": "off",
-          "raw_value": "apague",
+          "raw_value": "",
+          "source": "",
           "start": 0,
           "raw_start": 0,
-          "end": 3,
-          "raw_end": 6
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
         },
         {
           "entity": "name",
-          "value": "lâmpada",
-          "raw_value": "lâmpada",
-          "start": 6,
-          "raw_start": 9,
-          "end": 13,
-          "raw_end": 16
+          "value": "luz do quarto",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
         }
       ],
-      "raw_text": "apague a lâmpada",
+      "text": "off a luz do quarto",
+      "raw_text": "apague a luz do quarto",
+      "recognize_seconds": 0.0008149230015987996,
       "tokens": [
         "off",
         "a",
-        "lâmpada"
+        "luz",
+        "do",
+        "quarto"
       ],
       "raw_tokens": [
         "apague",
         "a",
-        "lâmpada"
+        "luz",
+        "do",
+        "quarto"
       ],
-      "slots": {
-        "state": "off",
-        "name": "lâmpada"
-      },
-      "intents": [],
-      "recognize_seconds": 0.00044989585876464844,
-      "transcribe_seconds": 0.02085113525390625,
-      "wav_seconds": 1.5855625,
-      "likelihood": 0.6249682158035945,
+      "wav_seconds": 1.9063125,
+      "transcribe_seconds": 0.03764094099824433,
+      "speech_confidence": null,
+      "wav_name": "apague_a_luz_do_quarto.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "apague a   lâmpada",
-        "actual": "apague a   lâmpada",
-        "words": 3,
-        "correct": 3,
-        "errors": 0
+        "reference": [
+          "apague",
+          "a",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "hypothesis": [
+          "apague",
+          "a",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "differences": [
+          "apague",
+          "a",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "words": 5,
+        "errors": 0,
+        "matches": 5,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
       }
     },
-    "acenda_luz_do_quarto.wav": {
-      "text": "on luz do quarto",
+    "acenda_a_luz_do_quarto.wav": {
       "intent": {
         "name": "ChangeLightState",
         "confidence": 1
@@ -1481,23 +1923,31 @@
         {
           "entity": "state",
           "value": "on",
-          "raw_value": "acenda",
+          "raw_value": "",
+          "source": "",
           "start": 0,
           "raw_start": 0,
-          "end": 2,
-          "raw_end": 6
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
         },
         {
           "entity": "name",
           "value": "luz do quarto",
-          "raw_value": "luz do quarto",
-          "start": 3,
-          "raw_start": 7,
-          "end": 16,
-          "raw_end": 20
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
         }
       ],
+      "text": "on luz do quarto",
       "raw_text": "acenda luz do quarto",
+      "recognize_seconds": 0.0006170720007503405,
       "tokens": [
         "on",
         "luz",
@@ -1510,25 +1960,156 @@
         "do",
         "quarto"
       ],
-      "slots": {
-        "state": "on",
-        "name": "luz do quarto"
-      },
-      "intents": [],
-      "recognize_seconds": 0.0004487037658691406,
-      "transcribe_seconds": 0.020079851150512695,
-      "wav_seconds": 1.6944375,
-      "likelihood": 0.5089638508598283,
+      "wav_seconds": 1.9656875,
+      "transcribe_seconds": 0.03456690099847037,
+      "speech_confidence": null,
+      "wav_name": "acenda_a_luz_do_quarto.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "acenda luz do  quarto",
-        "actual": "acenda luz do  quarto",
-        "words": 4,
-        "correct": 4,
-        "errors": 0
+        "reference": [
+          "acenda",
+          "a",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "hypothesis": [
+          "acenda",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "differences": [
+          "acenda",
+          "-a",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "words": 5,
+        "errors": 1,
+        "matches": 4,
+        "substitutions": 0,
+        "deletions": 1,
+        "insertions": 0,
+        "error_rate": 0.2
       }
     },
-    "desligar_lâmpada.wav": {
-      "text": "off lâmpada",
+    "qual_é_a_temperatura_interna.wav": {
+      "intent": {
+        "name": "GetTemperature",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "name",
+          "value": "interna",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        }
+      ],
+      "text": "qual a temperatura interna",
+      "raw_text": "qual a temperatura interna",
+      "recognize_seconds": 0.00046055199709371664,
+      "tokens": [
+        "qual",
+        "a",
+        "temperatura",
+        "interna"
+      ],
+      "raw_tokens": [
+        "qual",
+        "a",
+        "temperatura",
+        "interna"
+      ],
+      "wav_seconds": 2.2976875,
+      "transcribe_seconds": 0.05107386999952723,
+      "speech_confidence": null,
+      "wav_name": "qual_é_a_temperatura_interna.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "qual",
+          "é",
+          "a",
+          "temperatura",
+          "interna"
+        ],
+        "hypothesis": [
+          "qual",
+          "a",
+          "temperatura",
+          "interna"
+        ],
+        "differences": [
+          "qual",
+          "-é",
+          "a",
+          "temperatura",
+          "interna"
+        ],
+        "words": 5,
+        "errors": 1,
+        "matches": 4,
+        "substitutions": 0,
+        "deletions": 1,
+        "insertions": 0,
+        "error_rate": 0.2
+      }
+    },
+    "que_horas_são.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "text": "ligar são",
+      "raw_text": "ligar são",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 1.0715625,
+      "transcribe_seconds": 0.020869603999017272,
+      "speech_confidence": null,
+      "wav_name": "que_horas_são.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "que",
+          "horas",
+          "são"
+        ],
+        "hypothesis": [
+          "ligar",
+          "são"
+        ],
+        "differences": [
+          "horas:ligar",
+          "são"
+        ],
+        "words": 3,
+        "errors": 2,
+        "matches": 1,
+        "substitutions": 1,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0.3333333333333333
+      }
+    },
+    "desligar_a_luz_do_quarto.wav": {
       "intent": {
         "name": "ChangeLightState",
         "confidence": 1
@@ -1537,142 +2118,561 @@
         {
           "entity": "state",
           "value": "off",
-          "raw_value": "desligar",
+          "raw_value": "",
+          "source": "",
           "start": 0,
           "raw_start": 0,
-          "end": 3,
-          "raw_end": 8
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
         },
         {
           "entity": "name",
-          "value": "lâmpada",
-          "raw_value": "lâmpada",
-          "start": 4,
-          "raw_start": 9,
-          "end": 11,
-          "raw_end": 16
+          "value": "luz do quarto",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
         }
       ],
-      "raw_text": "desligar lâmpada",
+      "text": "off luz do quarto",
+      "raw_text": "desligar luz do quarto",
+      "recognize_seconds": 0.000240329001826467,
       "tokens": [
         "off",
-        "lâmpada"
+        "luz",
+        "do",
+        "quarto"
       ],
       "raw_tokens": [
         "desligar",
-        "lâmpada"
+        "luz",
+        "do",
+        "quarto"
       ],
-      "slots": {
-        "state": "off",
-        "name": "lâmpada"
-      },
-      "intents": [],
-      "recognize_seconds": 0.00043463706970214844,
-      "transcribe_seconds": 0.02197861671447754,
-      "wav_seconds": 1.5783125,
-      "likelihood": 0.744431670747871,
+      "wav_seconds": 2.0945625,
+      "transcribe_seconds": 0.0269761550007388,
+      "speech_confidence": null,
+      "wav_name": "desligar_a_luz_do_quarto.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "desligar lâmpada",
-        "actual": "desligar lâmpada",
+        "reference": [
+          "desligar",
+          "a",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "hypothesis": [
+          "desligar",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "differences": [
+          "desligar",
+          "-a",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "words": 5,
+        "errors": 1,
+        "matches": 4,
+        "substitutions": 0,
+        "deletions": 1,
+        "insertions": 0,
+        "error_rate": 0.2
+      }
+    },
+    "apague_régua.wav": {
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "off",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        },
+        {
+          "entity": "name",
+          "value": "régua",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        }
+      ],
+      "text": "off régua",
+      "raw_text": "apague régua",
+      "recognize_seconds": 0.00039353000101982616,
+      "tokens": [
+        "off",
+        "régua"
+      ],
+      "raw_tokens": [
+        "apague",
+        "régua"
+      ],
+      "wav_seconds": 1.2239375,
+      "transcribe_seconds": 0.014436929999646964,
+      "speech_confidence": null,
+      "wav_name": "apague_régua.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "apague",
+          "régua"
+        ],
+        "hypothesis": [
+          "apague",
+          "régua"
+        ],
+        "differences": [
+          "apague",
+          "régua"
+        ],
         "words": 2,
-        "correct": 2,
-        "errors": 0
+        "errors": 0,
+        "matches": 2,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "acenda_luz_do_quarto.wav": {
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "on",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        },
+        {
+          "entity": "name",
+          "value": "luz do quarto",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        }
+      ],
+      "text": "on luz do quarto",
+      "raw_text": "acenda luz do quarto",
+      "recognize_seconds": 0.00039999500222620554,
+      "tokens": [
+        "on",
+        "luz",
+        "do",
+        "quarto"
+      ],
+      "raw_tokens": [
+        "acenda",
+        "luz",
+        "do",
+        "quarto"
+      ],
+      "wav_seconds": 1.6944375,
+      "transcribe_seconds": 0.020946137999999337,
+      "speech_confidence": null,
+      "wav_name": "acenda_luz_do_quarto.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "acenda",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "hypothesis": [
+          "acenda",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "differences": [
+          "acenda",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "words": 4,
+        "errors": 0,
+        "matches": 4,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "desligar_a_régua.wav": {
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "off",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        },
+        {
+          "entity": "name",
+          "value": "régua",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        }
+      ],
+      "text": "off a régua",
+      "raw_text": "desligar a régua",
+      "recognize_seconds": 0.0002815080006257631,
+      "tokens": [
+        "off",
+        "a",
+        "régua"
+      ],
+      "raw_tokens": [
+        "desligar",
+        "a",
+        "régua"
+      ],
+      "wav_seconds": 1.4988125,
+      "transcribe_seconds": 0.0303975269998773,
+      "speech_confidence": null,
+      "wav_name": "desligar_a_régua.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "desligar",
+          "a",
+          "régua"
+        ],
+        "hypothesis": [
+          "desligar",
+          "a",
+          "régua"
+        ],
+        "differences": [
+          "desligar",
+          "a",
+          "régua"
+        ],
+        "words": 3,
+        "errors": 0,
+        "matches": 3,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "ligar_a_luz_do_quarto.wav": {
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "on",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        },
+        {
+          "entity": "name",
+          "value": "luz do quarto",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        }
+      ],
+      "text": "on luz do quarto",
+      "raw_text": "ligar luz do quarto",
+      "recognize_seconds": 0.0005128170014359057,
+      "tokens": [
+        "on",
+        "luz",
+        "do",
+        "quarto"
+      ],
+      "raw_tokens": [
+        "ligar",
+        "luz",
+        "do",
+        "quarto"
+      ],
+      "wav_seconds": 1.9348125,
+      "transcribe_seconds": 0.024477672999637434,
+      "speech_confidence": null,
+      "wav_name": "ligar_a_luz_do_quarto.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "ligar",
+          "a",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "hypothesis": [
+          "ligar",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "differences": [
+          "ligar",
+          "-a",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "words": 5,
+        "errors": 1,
+        "matches": 4,
+        "substitutions": 0,
+        "deletions": 1,
+        "insertions": 0,
+        "error_rate": 0.2
+      }
+    },
+    "apague_a_régua.wav": {
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "off",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        },
+        {
+          "entity": "name",
+          "value": "régua",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        }
+      ],
+      "text": "off a régua",
+      "raw_text": "apague a régua",
+      "recognize_seconds": 0.0005436760002339724,
+      "tokens": [
+        "off",
+        "a",
+        "régua"
+      ],
+      "raw_tokens": [
+        "apague",
+        "a",
+        "régua"
+      ],
+      "wav_seconds": 1.3649375,
+      "transcribe_seconds": 0.018149668001569808,
+      "speech_confidence": null,
+      "wav_name": "apague_a_régua.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "apague",
+          "a",
+          "régua"
+        ],
+        "hypothesis": [
+          "apague",
+          "a",
+          "régua"
+        ],
+        "differences": [
+          "apague",
+          "a",
+          "régua"
+        ],
+        "words": 3,
+        "errors": 0,
+        "matches": 3,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "ligar_luz_do_quarto.wav": {
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "on",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        },
+        {
+          "entity": "name",
+          "value": "luz do quarto",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        }
+      ],
+      "text": "on luz do quarto",
+      "raw_text": "ligar luz do quarto",
+      "recognize_seconds": 0.0002533549995860085,
+      "tokens": [
+        "on",
+        "luz",
+        "do",
+        "quarto"
+      ],
+      "raw_tokens": [
+        "ligar",
+        "luz",
+        "do",
+        "quarto"
+      ],
+      "wav_seconds": 1.7698125,
+      "transcribe_seconds": 0.02490468199903262,
+      "speech_confidence": null,
+      "wav_name": "ligar_luz_do_quarto.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "ligar",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "hypothesis": [
+          "ligar",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "differences": [
+          "ligar",
+          "luz",
+          "do",
+          "quarto"
+        ],
+        "words": 4,
+        "errors": 0,
+        "matches": 4,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
       }
     }
   },
-  "expected": {
-    "apague_lâmpada.wav": {
-      "text": "apague lâmpada"
-    },
-    "qual_a_temperatura_interna.wav": {
-      "text": "qual a temperatura interna"
-    },
-    "ligar_régua.wav": {
-      "text": "ligar régua"
-    },
-    "qual_o_status_da_garagem.wav": {
-      "text": "qual o status da garagem"
-    },
-    "desligar_a_lâmpada.wav": {
-      "text": "desligar a lâmpada"
-    },
-    "acenda_lâmpada.wav": {
-      "text": "acenda lâmpada"
-    },
-    "qual_é_a_temperatura_externa.wav": {
-      "text": "qual é a temperatura externa"
-    },
-    "ligar_luz_do_quarto.wav": {
-      "text": "ligar luz do quarto"
-    },
-    "apague_luz_do_quarto.wav": {
-      "text": "apague luz do quarto"
-    },
-    "qual_a_temperatura_externa.wav": {
-      "text": "qual a temperatura externa"
-    },
-    "acenda_régua.wav": {
-      "text": "acenda régua"
-    },
-    "apague_a_luz_do_quarto.wav": {
-      "text": "apague a luz do quarto"
-    },
-    "apague_régua.wav": {
-      "text": "apague régua"
-    },
-    "desligar_luz_do_quarto.wav": {
-      "text": "desligar luz do quarto"
-    },
-    "qual_a_qualidade_do_ar.wav": {
-      "text": "qual a qualidade do ar"
-    },
-    "qual_é_a_temperatura_interna.wav": {
-      "text": "qual é a temperatura interna"
-    },
-    "ligar_a_lâmpada.wav": {
-      "text": "ligar a lâmpada"
-    },
-    "que_horas_são.wav": {
-      "text": "que horas são"
-    },
-    "apague_a_régua.wav": {
-      "text": "apague a régua"
-    },
-    "desligar_a_régua.wav": {
-      "text": "desligar a régua"
-    },
-    "acenda_a_régua.wav": {
-      "text": "acenda a régua"
-    },
-    "ligar_a_régua.wav": {
-      "text": "ligar a régua"
-    },
-    "desligar_régua.wav": {
-      "text": "desligar régua"
-    },
-    "acenda_a_lâmpada.wav": {
-      "text": "acenda a lâmpada"
-    },
-    "acenda_a_luz_do_quarto.wav": {
-      "text": "acenda a luz do quarto"
-    },
-    "ligar_a_luz_do_quarto.wav": {
-      "text": "ligar a luz do quarto"
-    },
-    "desligar_a_luz_do_quarto.wav": {
-      "text": "desligar a luz do quarto"
-    },
-    "ligar_lâmpada.wav": {
-      "text": "ligar lâmpada"
-    },
-    "apague_a_lâmpada.wav": {
-      "text": "apague a lâmpada"
-    },
-    "acenda_luz_do_quarto.wav": {
-      "text": "acenda luz do quarto"
-    },
-    "desligar_lâmpada.wav": {
-      "text": "desligar lâmpada"
-    }
-  }
+  "num_wavs": 31,
+  "num_words": 107,
+  "num_intents": 0,
+  "num_entities": 0,
+  "correct_transcriptions": 21,
+  "correct_intent_names": 0,
+  "correct_words": 94,
+  "correct_entities": 0,
+  "correct_intent_and_entities": 0,
+  "transcription_accuracy": 0.8785046728971962,
+  "intent_accuracy": 1,
+  "entity_accuracy": 1,
+  "intent_entity_accuracy": 1,
+  "average_transcription_speedup": 50.57377473560724
 }
