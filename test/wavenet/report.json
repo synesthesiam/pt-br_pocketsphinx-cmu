@@ -438,7 +438,7 @@
       ],
       "text": "on a régua",
       "raw_text": "ligar a régua",
-      "recognize_seconds": 0.00046247499994933605,
+      "recognize_seconds": 0.0004889850024483167,
       "tokens": [
         "on",
         "a",
@@ -450,7 +450,7 @@
         "régua"
       ],
       "wav_seconds": 1.2728125,
-      "transcribe_seconds": 0.03800354299892206,
+      "transcribe_seconds": 0.03494843099906575,
       "speech_confidence": null,
       "wav_name": "ligar_a_régua.wav",
       "expected_intent_name": "",
@@ -514,7 +514,7 @@
       ],
       "text": "off a lâmpada",
       "raw_text": "apague a lâmpada",
-      "recognize_seconds": 0.0005436909996205941,
+      "recognize_seconds": 0.00048327699914807454,
       "tokens": [
         "off",
         "a",
@@ -526,7 +526,7 @@
         "lâmpada"
       ],
       "wav_seconds": 1.5855625,
-      "transcribe_seconds": 0.04139559499890311,
+      "transcribe_seconds": 0.038271936999080935,
       "speech_confidence": null,
       "wav_name": "apague_a_lâmpada.wav",
       "expected_intent_name": "",
@@ -559,17 +559,29 @@
     },
     "qual_a_qualidade_do_ar.wav": {
       "intent": {
-        "name": "",
-        "confidence": 0
+        "name": "GetAir",
+        "confidence": 1
       },
       "entities": [],
-      "text": "apague apague do ar",
-      "raw_text": "apague apague do ar",
-      "recognize_seconds": 0,
-      "tokens": [],
-      "raw_tokens": [],
+      "text": "qual a qualidade do ar",
+      "raw_text": "qual a qualidade do ar",
+      "recognize_seconds": 0.00038443700032075867,
+      "tokens": [
+        "qual",
+        "a",
+        "qualidade",
+        "do",
+        "ar"
+      ],
+      "raw_tokens": [
+        "qual",
+        "a",
+        "qualidade",
+        "do",
+        "ar"
+      ],
       "wav_seconds": 1.8144375,
-      "transcribe_seconds": 0.04123866300142254,
+      "transcribe_seconds": 0.03942281800118508,
       "speech_confidence": null,
       "wav_name": "qual_a_qualidade_do_ar.wav",
       "expected_intent_name": "",
@@ -584,24 +596,26 @@
           "ar"
         ],
         "hypothesis": [
-          "apague",
-          "apague",
+          "qual",
+          "a",
+          "qualidade",
           "do",
           "ar"
         ],
         "differences": [
-          "a:apague",
-          "qualidade:apague",
+          "qual",
+          "a",
+          "qualidade",
           "do",
           "ar"
         ],
         "words": 5,
-        "errors": 3,
-        "matches": 2,
-        "substitutions": 2,
+        "errors": 0,
+        "matches": 5,
+        "substitutions": 0,
         "deletions": 0,
         "insertions": 0,
-        "error_rate": 0.4
+        "error_rate": 0
       }
     },
     "ligar_a_lâmpada.wav": {
@@ -637,7 +651,7 @@
       ],
       "text": "on lâmpada",
       "raw_text": "ligar lâmpada",
-      "recognize_seconds": 0.0003582400022423826,
+      "recognize_seconds": 0.0007048010011203587,
       "tokens": [
         "on",
         "lâmpada"
@@ -647,7 +661,7 @@
         "lâmpada"
       ],
       "wav_seconds": 1.4665625,
-      "transcribe_seconds": 0.034287056001630845,
+      "transcribe_seconds": 0.03222503000142751,
       "speech_confidence": null,
       "wav_name": "ligar_a_lâmpada.wav",
       "expected_intent_name": "",
@@ -710,7 +724,7 @@
       ],
       "text": "off régua",
       "raw_text": "desligar régua",
-      "recognize_seconds": 0.00039389099765685387,
+      "recognize_seconds": 0.00042307499825255945,
       "tokens": [
         "off",
         "régua"
@@ -720,7 +734,7 @@
         "régua"
       ],
       "wav_seconds": 1.37725,
-      "transcribe_seconds": 0.04061673000251176,
+      "transcribe_seconds": 0.033860491999803344,
       "speech_confidence": null,
       "wav_name": "desligar_régua.wav",
       "expected_intent_name": "",
@@ -781,7 +795,7 @@
       ],
       "text": "on régua",
       "raw_text": "acenda régua",
-      "recognize_seconds": 0.001051162998919608,
+      "recognize_seconds": 0.0006700929989165161,
       "tokens": [
         "on",
         "régua"
@@ -791,7 +805,7 @@
         "régua"
       ],
       "wav_seconds": 1.240125,
-      "transcribe_seconds": 0.03004470399901038,
+      "transcribe_seconds": 0.027861631999257952,
       "speech_confidence": null,
       "wav_name": "acenda_régua.wav",
       "expected_intent_name": "",
@@ -852,7 +866,7 @@
       ],
       "text": "off lâmpada",
       "raw_text": "apague lâmpada",
-      "recognize_seconds": 0.0006262490023800638,
+      "recognize_seconds": 0.0004028249968541786,
       "tokens": [
         "off",
         "lâmpada"
@@ -862,7 +876,7 @@
         "lâmpada"
       ],
       "wav_seconds": 1.41975,
-      "transcribe_seconds": 0.03091558899905067,
+      "transcribe_seconds": 0.0336619250010699,
       "speech_confidence": null,
       "wav_name": "apague_lâmpada.wav",
       "expected_intent_name": "",
@@ -923,7 +937,7 @@
       ],
       "text": "off luz do quarto",
       "raw_text": "desligar luz do quarto",
-      "recognize_seconds": 0.00038829400000395253,
+      "recognize_seconds": 0.0004582959991239477,
       "tokens": [
         "off",
         "luz",
@@ -937,7 +951,7 @@
         "quarto"
       ],
       "wav_seconds": 1.8995,
-      "transcribe_seconds": 0.04560660700008157,
+      "transcribe_seconds": 0.042530179998720996,
       "speech_confidence": null,
       "wav_name": "desligar_luz_do_quarto.wav",
       "expected_intent_name": "",
@@ -992,7 +1006,7 @@
       ],
       "text": "qual a temperatura externa",
       "raw_text": "qual a temperatura externa",
-      "recognize_seconds": 0.00046328099779202603,
+      "recognize_seconds": 0.0004149229971517343,
       "tokens": [
         "qual",
         "a",
@@ -1006,7 +1020,7 @@
         "externa"
       ],
       "wav_seconds": 2.2995625,
-      "transcribe_seconds": 0.04813856200053124,
+      "transcribe_seconds": 0.050954869999259245,
       "speech_confidence": null,
       "wav_name": "qual_é_a_temperatura_externa.wav",
       "expected_intent_name": "",
@@ -1075,7 +1089,7 @@
       ],
       "text": "on régua",
       "raw_text": "ligar régua",
-      "recognize_seconds": 0.00041297000279882923,
+      "recognize_seconds": 0.00043724599890992977,
       "tokens": [
         "on",
         "régua"
@@ -1085,7 +1099,7 @@
         "régua"
       ],
       "wav_seconds": 1.1076875,
-      "transcribe_seconds": 0.031182837999949697,
+      "transcribe_seconds": 0.030668485000205692,
       "speech_confidence": null,
       "wav_name": "ligar_régua.wav",
       "expected_intent_name": "",
@@ -1134,7 +1148,7 @@
       ],
       "text": "qual a temperatura interna",
       "raw_text": "qual a temperatura interna",
-      "recognize_seconds": 0.00045577499986393377,
+      "recognize_seconds": 0.0004944800020894036,
       "tokens": [
         "qual",
         "a",
@@ -1148,7 +1162,7 @@
         "interna"
       ],
       "wav_seconds": 1.9280625,
-      "transcribe_seconds": 0.044983702999161324,
+      "transcribe_seconds": 0.044947236998268636,
       "speech_confidence": null,
       "wav_name": "qual_a_temperatura_interna.wav",
       "expected_intent_name": "",
@@ -1215,7 +1229,7 @@
       ],
       "text": "on régua",
       "raw_text": "acenda régua",
-      "recognize_seconds": 0.0007324879989027977,
+      "recognize_seconds": 0.0004225049997330643,
       "tokens": [
         "on",
         "régua"
@@ -1225,7 +1239,7 @@
         "régua"
       ],
       "wav_seconds": 1.3683125,
-      "transcribe_seconds": 0.026139767000131542,
+      "transcribe_seconds": 0.03192982700056746,
       "speech_confidence": null,
       "wav_name": "acenda_a_régua.wav",
       "expected_intent_name": "",
@@ -1288,7 +1302,7 @@
       ],
       "text": "off lâmpada",
       "raw_text": "desligar lâmpada",
-      "recognize_seconds": 0.00036827599979005754,
+      "recognize_seconds": 0.00038748199949623086,
       "tokens": [
         "off",
         "lâmpada"
@@ -1298,7 +1312,7 @@
         "lâmpada"
       ],
       "wav_seconds": 1.5783125,
-      "transcribe_seconds": 0.03891708599985577,
+      "transcribe_seconds": 0.0387170399990282,
       "speech_confidence": null,
       "wav_name": "desligar_lâmpada.wav",
       "expected_intent_name": "",
@@ -1359,7 +1373,7 @@
       ],
       "text": "on a lâmpada",
       "raw_text": "acenda a lâmpada",
-      "recognize_seconds": 0.0007533940006396733,
+      "recognize_seconds": 0.0005469600000651553,
       "tokens": [
         "on",
         "a",
@@ -1371,7 +1385,7 @@
         "lâmpada"
       ],
       "wav_seconds": 1.5655625,
-      "transcribe_seconds": 0.034063764000165975,
+      "transcribe_seconds": 0.03381045399873983,
       "speech_confidence": null,
       "wav_name": "acenda_a_lâmpada.wav",
       "expected_intent_name": "",
@@ -1435,7 +1449,7 @@
       ],
       "text": "off luz do quarto",
       "raw_text": "apague luz do quarto",
-      "recognize_seconds": 0.0005047519989602733,
+      "recognize_seconds": 0.0006677380006294698,
       "tokens": [
         "off",
         "luz",
@@ -1449,7 +1463,7 @@
         "quarto"
       ],
       "wav_seconds": 1.7983125,
-      "transcribe_seconds": 0.04091125700142584,
+      "transcribe_seconds": 0.04268890399907832,
       "speech_confidence": null,
       "wav_name": "apague_luz_do_quarto.wav",
       "expected_intent_name": "",
@@ -1504,7 +1518,7 @@
       ],
       "text": "qual a temperatura externa",
       "raw_text": "qual a temperatura externa",
-      "recognize_seconds": 0.0004879180014540907,
+      "recognize_seconds": 0.0012002209987258539,
       "tokens": [
         "qual",
         "a",
@@ -1518,7 +1532,7 @@
         "externa"
       ],
       "wav_seconds": 2.0568125,
-      "transcribe_seconds": 0.04916111800048384,
+      "transcribe_seconds": 0.04937082299875328,
       "speech_confidence": null,
       "wav_name": "qual_a_temperatura_externa.wav",
       "expected_intent_name": "",
@@ -1585,7 +1599,7 @@
       ],
       "text": "on lâmpada",
       "raw_text": "acenda lâmpada",
-      "recognize_seconds": 0.0007055059977574274,
+      "recognize_seconds": 0.0006212010011950042,
       "tokens": [
         "on",
         "lâmpada"
@@ -1595,7 +1609,7 @@
         "lâmpada"
       ],
       "wav_seconds": 1.4013125,
-      "transcribe_seconds": 0.028739252000377746,
+      "transcribe_seconds": 0.025561111000570236,
       "speech_confidence": null,
       "wav_name": "acenda_lâmpada.wav",
       "expected_intent_name": "",
@@ -1631,7 +1645,7 @@
       "entities": [],
       "text": "qual o status da garagem",
       "raw_text": "qual o status da garagem",
-      "recognize_seconds": 0.0005775310019089375,
+      "recognize_seconds": 0.00038310300078592263,
       "tokens": [
         "qual",
         "o",
@@ -1647,7 +1661,7 @@
         "garagem"
       ],
       "wav_seconds": 2.0164375,
-      "transcribe_seconds": 0.04728408200026024,
+      "transcribe_seconds": 0.04576634700060822,
       "speech_confidence": null,
       "wav_name": "qual_o_status_da_garagem.wav",
       "expected_intent_name": "",
@@ -1717,7 +1731,7 @@
       ],
       "text": "off lâmpada",
       "raw_text": "desligar lâmpada",
-      "recognize_seconds": 0.00038245299947448075,
+      "recognize_seconds": 0.00042218900125590153,
       "tokens": [
         "off",
         "lâmpada"
@@ -1727,7 +1741,7 @@
         "lâmpada"
       ],
       "wav_seconds": 1.683625,
-      "transcribe_seconds": 0.0396841849978955,
+      "transcribe_seconds": 0.04157852199932677,
       "speech_confidence": null,
       "wav_name": "desligar_a_lâmpada.wav",
       "expected_intent_name": "",
@@ -1790,7 +1804,7 @@
       ],
       "text": "on lâmpada",
       "raw_text": "ligar lâmpada",
-      "recognize_seconds": 0.0003681030029838439,
+      "recognize_seconds": 0.0005364279968489427,
       "tokens": [
         "on",
         "lâmpada"
@@ -1800,7 +1814,7 @@
         "lâmpada"
       ],
       "wav_seconds": 1.3405,
-      "transcribe_seconds": 0.033477057000709465,
+      "transcribe_seconds": 0.03328011900157435,
       "speech_confidence": null,
       "wav_name": "ligar_lâmpada.wav",
       "expected_intent_name": "",
@@ -1861,7 +1875,7 @@
       ],
       "text": "off a luz do quarto",
       "raw_text": "apague a luz do quarto",
-      "recognize_seconds": 0.0008149230015987996,
+      "recognize_seconds": 0.0005407710013969336,
       "tokens": [
         "off",
         "a",
@@ -1877,7 +1891,7 @@
         "quarto"
       ],
       "wav_seconds": 1.9063125,
-      "transcribe_seconds": 0.03764094099824433,
+      "transcribe_seconds": 0.03652200999931665,
       "speech_confidence": null,
       "wav_name": "apague_a_luz_do_quarto.wav",
       "expected_intent_name": "",
@@ -1947,7 +1961,7 @@
       ],
       "text": "on luz do quarto",
       "raw_text": "acenda luz do quarto",
-      "recognize_seconds": 0.0006170720007503405,
+      "recognize_seconds": 0.0004396349977469072,
       "tokens": [
         "on",
         "luz",
@@ -1961,7 +1975,7 @@
         "quarto"
       ],
       "wav_seconds": 1.9656875,
-      "transcribe_seconds": 0.03456690099847037,
+      "transcribe_seconds": 0.040413357000943506,
       "speech_confidence": null,
       "wav_name": "acenda_a_luz_do_quarto.wav",
       "expected_intent_name": "",
@@ -2018,7 +2032,7 @@
       ],
       "text": "qual a temperatura interna",
       "raw_text": "qual a temperatura interna",
-      "recognize_seconds": 0.00046055199709371664,
+      "recognize_seconds": 0.000422286000684835,
       "tokens": [
         "qual",
         "a",
@@ -2032,7 +2046,7 @@
         "interna"
       ],
       "wav_seconds": 2.2976875,
-      "transcribe_seconds": 0.05107386999952723,
+      "transcribe_seconds": 0.04481040500104427,
       "speech_confidence": null,
       "wav_name": "qual_é_a_temperatura_interna.wav",
       "expected_intent_name": "",
@@ -2074,13 +2088,13 @@
         "confidence": 0
       },
       "entities": [],
-      "text": "ligar são",
-      "raw_text": "ligar são",
+      "text": "ligar a são",
+      "raw_text": "ligar a são",
       "recognize_seconds": 0,
       "tokens": [],
       "raw_tokens": [],
       "wav_seconds": 1.0715625,
-      "transcribe_seconds": 0.020869603999017272,
+      "transcribe_seconds": 0.01983200000177021,
       "speech_confidence": null,
       "wav_name": "que_horas_são.wav",
       "expected_intent_name": "",
@@ -2094,19 +2108,21 @@
         ],
         "hypothesis": [
           "ligar",
+          "a",
           "são"
         ],
         "differences": [
-          "horas:ligar",
+          "que:ligar",
+          "horas:a",
           "são"
         ],
         "words": 3,
         "errors": 2,
         "matches": 1,
-        "substitutions": 1,
+        "substitutions": 2,
         "deletions": 0,
         "insertions": 0,
-        "error_rate": 0.3333333333333333
+        "error_rate": 0.6666666666666666
       }
     },
     "desligar_a_luz_do_quarto.wav": {
@@ -2142,7 +2158,7 @@
       ],
       "text": "off luz do quarto",
       "raw_text": "desligar luz do quarto",
-      "recognize_seconds": 0.000240329001826467,
+      "recognize_seconds": 0.0004151719986111857,
       "tokens": [
         "off",
         "luz",
@@ -2156,7 +2172,7 @@
         "quarto"
       ],
       "wav_seconds": 2.0945625,
-      "transcribe_seconds": 0.0269761550007388,
+      "transcribe_seconds": 0.032302570001775166,
       "speech_confidence": null,
       "wav_name": "desligar_a_luz_do_quarto.wav",
       "expected_intent_name": "",
@@ -2225,7 +2241,7 @@
       ],
       "text": "off régua",
       "raw_text": "apague régua",
-      "recognize_seconds": 0.00039353000101982616,
+      "recognize_seconds": 0.00025363999884575605,
       "tokens": [
         "off",
         "régua"
@@ -2235,7 +2251,7 @@
         "régua"
       ],
       "wav_seconds": 1.2239375,
-      "transcribe_seconds": 0.014436929999646964,
+      "transcribe_seconds": 0.01519961500162026,
       "speech_confidence": null,
       "wav_name": "apague_régua.wav",
       "expected_intent_name": "",
@@ -2296,7 +2312,7 @@
       ],
       "text": "on luz do quarto",
       "raw_text": "acenda luz do quarto",
-      "recognize_seconds": 0.00039999500222620554,
+      "recognize_seconds": 0.0004481450014282018,
       "tokens": [
         "on",
         "luz",
@@ -2310,7 +2326,7 @@
         "quarto"
       ],
       "wav_seconds": 1.6944375,
-      "transcribe_seconds": 0.020946137999999337,
+      "transcribe_seconds": 0.022961609000049066,
       "speech_confidence": null,
       "wav_name": "acenda_luz_do_quarto.wav",
       "expected_intent_name": "",
@@ -2377,7 +2393,7 @@
       ],
       "text": "off a régua",
       "raw_text": "desligar a régua",
-      "recognize_seconds": 0.0002815080006257631,
+      "recognize_seconds": 0.0006194699999468867,
       "tokens": [
         "off",
         "a",
@@ -2389,7 +2405,7 @@
         "régua"
       ],
       "wav_seconds": 1.4988125,
-      "transcribe_seconds": 0.0303975269998773,
+      "transcribe_seconds": 0.0239162519974343,
       "speech_confidence": null,
       "wav_name": "desligar_a_régua.wav",
       "expected_intent_name": "",
@@ -2453,7 +2469,7 @@
       ],
       "text": "on luz do quarto",
       "raw_text": "ligar luz do quarto",
-      "recognize_seconds": 0.0005128170014359057,
+      "recognize_seconds": 0.00036699799966299906,
       "tokens": [
         "on",
         "luz",
@@ -2467,7 +2483,7 @@
         "quarto"
       ],
       "wav_seconds": 1.9348125,
-      "transcribe_seconds": 0.024477672999637434,
+      "transcribe_seconds": 0.024475282996718306,
       "speech_confidence": null,
       "wav_name": "ligar_a_luz_do_quarto.wav",
       "expected_intent_name": "",
@@ -2536,7 +2552,7 @@
       ],
       "text": "off a régua",
       "raw_text": "apague a régua",
-      "recognize_seconds": 0.0005436760002339724,
+      "recognize_seconds": 0.0005828890025441069,
       "tokens": [
         "off",
         "a",
@@ -2548,7 +2564,7 @@
         "régua"
       ],
       "wav_seconds": 1.3649375,
-      "transcribe_seconds": 0.018149668001569808,
+      "transcribe_seconds": 0.01780864499960444,
       "speech_confidence": null,
       "wav_name": "apague_a_régua.wav",
       "expected_intent_name": "",
@@ -2612,7 +2628,7 @@
       ],
       "text": "on luz do quarto",
       "raw_text": "ligar luz do quarto",
-      "recognize_seconds": 0.0002533549995860085,
+      "recognize_seconds": 0.0005311419990903232,
       "tokens": [
         "on",
         "luz",
@@ -2626,7 +2642,7 @@
         "quarto"
       ],
       "wav_seconds": 1.7698125,
-      "transcribe_seconds": 0.02490468199903262,
+      "transcribe_seconds": 0.02512952599863638,
       "speech_confidence": null,
       "wav_name": "ligar_luz_do_quarto.wav",
       "expected_intent_name": "",
@@ -2665,14 +2681,14 @@
   "num_words": 107,
   "num_intents": 0,
   "num_entities": 0,
-  "correct_transcriptions": 21,
+  "correct_transcriptions": 22,
   "correct_intent_names": 0,
-  "correct_words": 94,
+  "correct_words": 97,
   "correct_entities": 0,
   "correct_intent_and_entities": 0,
-  "transcription_accuracy": 0.8785046728971962,
+  "transcription_accuracy": 0.9065420560747663,
   "intent_accuracy": 1,
   "entity_accuracy": 1,
   "intent_entity_accuracy": 1,
-  "average_transcription_speedup": 50.57377473560724
+  "average_transcription_speedup": 50.742296728993416
 }
